@@ -4,11 +4,11 @@
 The Two Pointers pattern involves using two pointers to iterate through a data structure, typically an array or linked list. This technique is particularly useful for solving problems that involve searching pairs in a sorted array or linked list, reversing a string or array, or finding a subarray that meets certain conditions. It's efficient because it often allows us to solve problems in a single pass through the data structure, typically achieving O(n) time complexity.
 
 **Examples**:
-1. **[Two Sum](pattern1_two_pointers/two_sum.js)**: Uses left and right pointer to traverse sorted array
-2. **[Pair](pattern1_two_pointers/pair.js)**: Shorter version of Two Sum
-3. **[Sub Array](pattern1_two_pointers/subarray.js)**: Find a contiguous subarray with a given sum
-4. **[Palindrome](pattern1_two_pointers/palindrome.js)**: Check if a string is a palindrome 
-5. **[Reverse](pattern1_two_pointers/reverse.js)**: Reverse an array in-place
+1. **[Two Sum](two_sum.js)**: Uses left and right pointer to traverse sorted array
+2. **[Pair](pair.js)**: Shorter version of Two Sum
+3. **[Sub Array](subarray.js)**: Find a contiguous subarray with a given sum
+4. **[Palindrome](palindrome.js)**: Check if a string is a palindrome 
+5. **[Reverse](reverse.js)**: Reverse an array in-place
 
 **Key observations**:
 
