@@ -44,8 +44,6 @@ These examples demonstrate the versatility of the Stack pattern in solving diffe
 
 1. **[Linked List Stack](linked_list_stack.js)**: Demonstrates how a stack can be implemented without using an array and showcases a different application of the stack pattern.
 
-**Key observations**:
-
 Let's compare this linked list implementation with the previous array-based examples:
 
 Consistencies:
@@ -56,9 +54,6 @@ Consistencies:
 
 Differences:
 
-- Data Structure:
-  - This uses a linked list for the main stack instead of an array.
-  - Each element is a Node object with a value and a next pointer.
 - Memory Allocation:
   - Memory is allocated dynamically for each new element, which can be more flexible for large or unknown stack sizes.
 - Space Efficiency:
