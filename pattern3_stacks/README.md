@@ -1,14 +1,14 @@
-# stacks
+# Stacks
 
 **Summary**:
 The Stack pattern utilizes the Last-In-First-Out (LIFO) data structure to solve problems involving nested structures, parsing, or reversing elements. It's particularly useful for problems that involve matching pairs, tracking history, or managing hierarchical data. Stacks provide O(1) time complexity for push and pop operations, making them efficient for problems that require backtracking or maintaining a state history.
 
-**Examples**:
+## **Examples**:
 1. **[Parenthesis](parenthesis.js)**: Find matching prenthesis pairs.
 2. **[Nested](nested.js)**: Find nested structure evaluting an expression string.
 3. **[Min Stack](minstack.js)**: Maintains a second stack with minimum values.
 
-**Key observations**:
+### **Key observations**:
 
 Consistencies:
 
@@ -40,7 +40,7 @@ Differences:
 
 These examples demonstrate the versatility of the Stack pattern in solving different types of problems, from simple validation to complex data structure design, while maintaining the core principle of Last-In-First-Out operations.
 
-**Linked List Example**:
+### **Linked List Examples**:
 
 1. **[Linked List Stack](linked_list_stack.js)**: Demonstrates how a stack can be implemented without using an array and showcases a different application of the stack pattern.
 
@@ -65,14 +65,14 @@ This linked list implementation demonstrates how the Stack pattern can be applie
 
 -------------
 
-**Real-World Application**:
+## **Real-World Application**:
 
 - **Browser History**: Web browsers use stacks to manage the back and forward navigation history.
 - **Text Editors**: Undo/Redo functionality in text editors is often implemented using stacks.
 - **Function Call Management**: Programming language interpreters and compilers use stacks to manage function calls and local variables.
 - **Expression Evaluation**: Calculators and expression parsers use stacks to evaluate arithmetic expressions.
 
-**Keywords**:
+## **Keywords**:
 
 - "parentheses"
 - "brackets"
@@ -83,7 +83,7 @@ This linked list implementation demonstrates how the Stack pattern can be applie
 - "history"
 - "last operation"
 
-**Ways to Identify**:
+## **Ways to Identify**:
 
 1. The problem involves matching opening and closing characters (like parentheses or brackets).
 2. You need to process items in reverse order of their appearance.

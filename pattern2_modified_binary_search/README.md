@@ -1,9 +1,9 @@
-# modified-binary-search
+# Modified Binary Search
 
 **Summary**:
 Modified Binary Search is an adaptation of the classic binary search algorithm. While traditional binary search is used to find a specific element in a sorted array, the modified version can be applied to more complex scenarios. It's particularly useful for problems where the search space can be divided in half repeatedly, even if the array isn't perfectly sorted or if we're not searching for an exact match. This pattern is efficient, typically achieving O(log n) time complexity.
 
-**Examples**:
+## **Examples**:
 
 1. **[Binary Search](binary_search.js)**: Simple binary search for comparison.
 2. **[Find Peak Element](find_peak_element.js)**: Shows how it can find a peak element in different array configurations, including when there's only one element.
@@ -12,7 +12,7 @@ Modified Binary Search is an adaptation of the classic binary search algorithm. 
 
 These examples help illustrate how the modified binary search algorithms adapt to their specific problem constraints while maintaining the core binary search structure.
 
-**Key observations**:
+### **Key observations**:
 
 Consistencies:
 
@@ -40,13 +40,13 @@ The key to Modified Binary Search is adapting the core binary search algorithm t
 
 ------------
 
-**Real-World Application**:
+## **Real-World Application**:
 
 1. **Google**: Uses modified binary search in their search engine algorithms to quickly narrow down relevant results.
 2. **Netflix**: Applies this pattern in their content delivery networks to efficiently locate the nearest server for streaming.
 3. **GitHub**: Utilizes modified binary search in their version control system for efficient commit history searches.
 
-**Keywords**:
+## **Keywords**:
 
 - "sorted"
 - "search"
@@ -56,7 +56,7 @@ The key to Modified Binary Search is adapting the core binary search algorithm t
 - "minimum"
 - "maximum"
 
-**Ways to Identify**:
+## **Ways to Identify**:
 
 1. The problem involves a sorted (or partially sorted) array.
 2. You need to find a specific element or a point that meets certain criteria (like a peak or valley).

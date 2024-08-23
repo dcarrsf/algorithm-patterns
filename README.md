@@ -1,4 +1,4 @@
-# algorithm-patterns
+# Algorithm Patterns
 
 Algorithm studies project using AI assistance to define patterns, examples, and approaches to solving challenge problems.
 
@@ -6,7 +6,7 @@ I'm continuing the idea started by Ed Skwareki in his Medium article [How ChatGP
 
 I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the list of 27 algorithm patterns to use as guidelines for the study topics. 
 
-*Initial Prompt*:
+### *Initial Prompt*:
 
 > This document contains 27 high-level algorithm patterns defined by ChatGPT after reviewing algorithm challenges on LeetCode. Act as an experienced software engineer tutoring me to prepare for an interview related algorithm challenge. We’re working in JavaScript, where the goal is to be able to identify a solution using a pattern. I’ll prompt to start the discussion for each pattern and we’ll discuss the patterns one at a time. To start, please organize the 27 patterns in 2 lists, where the first list includes the patterns marked “Popular”, and the second list includes the remaining “Other Patterns”.
 
@@ -18,7 +18,7 @@ Popular Patterns:
 1. **[Two Pointers](pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
 3. **[Stacks](pattern3_stacks/README.md)**
-4. Tree Depth-First Search (DFS)
+4. **[Tree Depth-First Search (DFS)](pattern4_tree_depth_first/README.md)**
 5. Tree Breadth-First Search (BFS)
 6. Hash Maps
 7. Top K Elements
@@ -51,13 +51,13 @@ Other Patterns:
 
 Generate an overview followed by series of examples and a comparison of the examples to glean insights.
 
-*Follow-up Prompt*:
+### *Follow-up Prompt*:
 
 > For each pattern, print an overview in the following format: “Summary” of the pattern and why it’s useful, “Real-World Application” of companies and software that actually use this pattern and what problems they solve with it, “Keywords” that may indicate the pattern is used in a challenge question, “Ways to Identify” the pattern when a question is asked. Wait for my prompt after printing the overview.
 
 After contemplating the overview, ask for a series of 3-5 examples to use as reference and also to see the overlap of the pattern variations across problems.
 
-*Follow-up Prompt*:
+### *Follow-up Prompt*:
 
 > Please provide 3 to 5 examples to demonstrate the concept. Compare and contrast the examples. What are the "Consistencies" and "Differences"?
 
