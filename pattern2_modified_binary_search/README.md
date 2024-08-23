@@ -5,16 +5,10 @@ Modified Binary Search is an adaptation of the classic binary search algorithm. 
 
 **Examples**:
 
-1. **[Binary Search](binary_search.js)**: Simple binary search for comparison
-2. **[Find Peak Element](find_peak_element.js)**: Find peak element
-3. **[Search Range](search_range.js)**: Find First and Last Position of Element in Sorted Array
-4. **[Search Rotated Array](search_rotated_array.js)**: Find index of target
-
-These example usages demonstrate how each function handles different input scenarios:
-
-- **searchRange**: shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
-- **search**: demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
-- **findPeakElement**: shows how it can find a peak element in different array configurations, including when there's only one element.
+1. **[Binary Search](binary_search.js)**: Simple binary search for comparison.
+2. **[Find Peak Element](find_peak_element.js)**: Shows how it can find a peak element in different array configurations, including when there's only one element.
+3. **[Search Range](search_range.js)**: Shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
+4. **[Search Rotated Array](search_rotated_array.js)**: Demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
 
 These examples help illustrate how the modified binary search algorithms adapt to their specific problem constraints while maintaining the core binary search structure.
 

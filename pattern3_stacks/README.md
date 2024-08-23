@@ -4,8 +4,87 @@
 The Stack pattern utilizes the Last-In-First-Out (LIFO) data structure to solve problems involving nested structures, parsing, or reversing elements. It's particularly useful for problems that involve matching pairs, tracking history, or managing hierarchical data. Stacks provide O(1) time complexity for push and pop operations, making them efficient for problems that require backtracking or maintaining a state history.
 
 **Examples**:
+1. **[Parenthesis](parenthesis.js)**: Find matching prenthesis pairs.
+2. **[Nested](nested.js)**: Find nested structure evaluting an expression string.
+3. **[Min Stack](minstack.js)**: Maintains a second stack with minimum values.
 
-Coming soon...
+**Key observations**:
+
+Consistencies:
+
+- All examples use the basic stack operations: push and pop.
+- They all maintain the LIFO (Last-In-First-Out) principle.
+- The stack is used to keep track of the most recent elements or state.
+- Time complexity for push and pop operations is O(1) in all cases.
+
+Differences:
+
+- Purpose:
+  - The parentheses example uses the stack to match opening and closing brackets.
+  - The nested structure example uses the stack to evaluate an expression.
+  - The min stack example uses two stacks to keep track of both elements and the current minimum.
+
+- Implementation:
+  - The first two examples use a simple array as a stack.
+  - The min stack example uses a class with two internal stacks.
+
+- Complexity:
+  - The parentheses and expression evaluation examples have O(n) time complexity overall, where n is the length of the input.
+  - The min stack maintains O(1) time complexity for all operations, but uses O(n) extra space.
+
+- Stack Usage:
+  - In the parentheses example, only opening brackets are pushed onto the stack.
+  - In the expression evaluation, both numbers and intermediate results are pushed onto the stack.
+  - The min stack pushes all elements onto one stack and only minimum values onto another.
+
+- Problem Solving Approach:
+  - The parentheses example uses the stack for validation.
+  - The expression evaluation uses the stack for computation.
+  - The min stack uses the stack for data structure design.
+
+These examples demonstrate the versatility of the Stack pattern in solving different types of problems, from simple validation to complex data structure design, while maintaining the core principle of Last-In-First-Out operations.
+
+**Linked List Example**:
+
+1. **[Linked List Stack](linked_list_stack.js)**: Demonstrates how a stack can be implemented without using an array and showcases a different application of the stack pattern.
+
+**Key observations**:
+
+Let's compare this linked list implementation with the previous array-based examples:
+
+Consistencies:
+
+- It maintains the LIFO (Last-In-First-Out) principle like all stack implementations.
+- Basic operations (push, pop, peek) are still present and operate in O(1) time.
+- It solves a similar problem to the MinStack example, but tracks the maximum instead of the minimum.
+
+Differences:
+
+- Data Structure:
+  - This uses a linked list for the main stack instead of an array.
+  - Each element is a Node object with a value and a next pointer.
+
+- Memory Allocation:
+  - Memory is allocated dynamically for each new element, which can be more flexible for large or unknown stack sizes.
+  - In languages with manual memory management, this would require explicit deallocation to prevent memory leaks.
+
+- Implementation Details:
+  - The top of the stack is a reference to the head of the linked list.
+  - Pushing and popping involve manipulating these references rather than array indices.
+
+- Auxiliary Stack Usage:
+  - Similar to the MinStack example, it uses an auxiliary stack (maxStack) to keep track of maximum values.
+  - However, maxStack is still implemented as an array for simplicity.
+
+- Traversal:
+  - If we needed to traverse all elements (not a typical stack operation), it would require following the next pointers rather than iterating through array indices.
+
+- Space Efficiency:
+  - Each node in the linked list has some overhead for the next pointer, which isn't present in array-based implementations.
+  - However, it doesn't require contiguous memory like arrays do.
+
+This linked list implementation demonstrates how the Stack pattern can be applied using different underlying data structures while maintaining the core LIFO principle and O(1) time complexity for basic operations. It's particularly useful in scenarios where the maximum stack size is unknown or where dynamic memory allocation is preferred.
+
 
 -------------
 
