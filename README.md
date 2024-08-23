@@ -17,7 +17,7 @@ Popular Patterns:
 
 1. **[Two Pointers](pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
-3. Stacks
+3. **[Stacks](pattern3_stacks/README.md)**
 4. Tree Depth-First Search (DFS)
 5. Tree Breadth-First Search (BFS)
 6. Hash Maps

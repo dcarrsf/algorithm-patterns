@@ -10,6 +10,14 @@ Modified Binary Search is an adaptation of the classic binary search algorithm. 
 3. **[Search Range](search_range.js)**: Find First and Last Position of Element in Sorted Array
 4. **[Search Rotated Array](search_rotated_array.js)**: Find index of target
 
+These example usages demonstrate how each function handles different input scenarios:
+
+- **searchRange**: shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
+- **search**: demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
+- **findPeakElement**: shows how it can find a peak element in different array configurations, including when there's only one element.
+
+These examples help illustrate how the modified binary search algorithms adapt to their specific problem constraints while maintaining the core binary search structure.
+
 **Key observations**:
 
 Consistencies:
@@ -21,26 +29,16 @@ Consistencies:
 
 Differences:
 
-- Termination condition:
-  - Example 1 and 2 use left <= right, while Example 3 uses left < right.
-
-- Mid-point calculation:
-
-  - All use the same method here, but in practice, left + (right - left) / 2 is often preferred to avoid integer overflow.
-
+- Termination condition: Example 1 and 2 use left <= right, while Example 3 uses left < right.
+- Mid-point calculation: All use the same method here, but in practice, left + (right - left) / 2 is often preferred to avoid integer overflow.
 - Comparison logic:
-
   - Example 1 has additional checks to find the leftmost and rightmost occurrences.
   - Example 2 has complex logic to handle the rotated array scenario.
   - Example 3 compares adjacent elements to find a peak.
-
 - Return value:
-
   - Example 1 returns an array of two indices.
   - Examples 2 and 3 return a single index.
-
 - Target of search:
-
   - Examples 1 and 2 search for a specific target value.
   - Example 3 searches for a condition (peak element) rather than a specific value.
 
@@ -54,7 +52,7 @@ The key to Modified Binary Search is adapting the core binary search algorithm t
 2. **Netflix**: Applies this pattern in their content delivery networks to efficiently locate the nearest server for streaming.
 3. **GitHub**: Utilizes modified binary search in their version control system for efficient commit history searches.
 
-***Keywords**:
+**Keywords**:
 
 - "sorted"
 - "search"
