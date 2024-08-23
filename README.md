@@ -6,7 +6,7 @@ I'm continuing the idea started by Ed Skwareki in his Medium article [How ChatGP
 
 I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the list of 27 algorithm patterns to use as guidelines for the study topics. 
 
-*Prompt*:
+*Initial Prompt*:
 
 > This document contains 27 high-level algorithm patterns defined by ChatGPT after reviewing algorithm challenges on LeetCode. Act as an experienced software engineer tutoring me to prepare for an interview related algorithm challenge. We’re working in JavaScript, where the goal is to be able to identify a solution using a pattern. I’ll prompt to start the discussion for each pattern and we’ll discuss the patterns one at a time. To start, please organize the 27 patterns in 2 lists, where the first list includes the patterns marked “Popular”, and the second list includes the remaining “Other Patterns”.
 
@@ -15,7 +15,7 @@ I'll start with the popular patterns defined in the response...
 
 Popular Patterns:
 
-1. **[Two Pointers](pattern1_two_pointers/README.md)**pointers
+1. **[Two Pointers](pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
 3. Stacks
 4. Tree Depth-First Search (DFS)
@@ -49,7 +49,7 @@ Other Patterns:
 ------------
 **Process**:
 
-For each pattern, I'm generating an overview followed by series of examples and a comparison of the examples to define consistencies and diferences.
+For each pattern, I'm generating an overview followed by series of examples and a comparison of the examples to glean insights.
 
 *Follow-up Prompt*:
 
@@ -60,4 +60,5 @@ After contemplating the overview, I ask for a series of 3-5 examples to use as r
 *Follow-up Prompt*:
 
 > Please provide 3 to 5 examples to demonstrate the concept. Compare and contrast the examples. What are the "Consistencies" and "Differences"?
+
 
