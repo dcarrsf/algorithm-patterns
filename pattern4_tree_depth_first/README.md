@@ -1,13 +1,11 @@
 # Tree Depth First Search
 
-## **Summary**
 Tree Depth-First Search is a pattern used to explore or search tree data structures by going as deep as possible along each branch before backtracking. This pattern is particularly useful for problems involving tree traversal, finding paths, or searching for specific nodes or values within a tree. DFS can be implemented recursively or iteratively using a stack, and it has three main variants: pre-order, in-order, and post-order traversal.
 
 ## **Examples**
 
 Coming soon...
 
-----------
 
 ## **Real-World Applications**:
 

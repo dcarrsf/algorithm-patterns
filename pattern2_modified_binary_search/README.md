@@ -1,6 +1,5 @@
 # Modified Binary Search
 
-**Summary**:
 Modified Binary Search is an adaptation of the classic binary search algorithm. While traditional binary search is used to find a specific element in a sorted array, the modified version can be applied to more complex scenarios. It's particularly useful for problems where the search space can be divided in half repeatedly, even if the array isn't perfectly sorted or if we're not searching for an exact match. This pattern is efficient, typically achieving O(log n) time complexity.
 
 ## **Examples**:
@@ -9,8 +8,6 @@ Modified Binary Search is an adaptation of the classic binary search algorithm. 
 2. **[Find Peak Element](find_peak_element.js)**: Shows how it can find a peak element in different array configurations, including when there's only one element.
 3. **[Search Range](search_range.js)**: Shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
 4. **[Search Rotated Array](search_rotated_array.js)**: Demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
-
-These examples help illustrate how the modified binary search algorithms adapt to their specific problem constraints while maintaining the core binary search structure.
 
 ### **Key observations**:
 
@@ -23,8 +20,10 @@ Consistencies:
 
 Differences:
 
-- Termination condition: Example 1 and 2 use left <= right, while Example 3 uses left < right.
-- Mid-point calculation: All use the same method here, but in practice, left + (right - left) / 2 is often preferred to avoid integer overflow.
+- Termination condition:
+  - Example 1 and 2 use left <= right, while Example 3 uses left < right.
+- Mid-point calculation:
+  - All use the same method here, but in practice, left + (right - left) / 2 is often preferred to avoid integer overflow.
 - Comparison logic:
   - Example 1 has additional checks to find the leftmost and rightmost occurrences.
   - Example 2 has complex logic to handle the rotated array scenario.
@@ -37,8 +36,6 @@ Differences:
   - Example 3 searches for a condition (peak element) rather than a specific value.
 
 The key to Modified Binary Search is adapting the core binary search algorithm to fit the specific problem constraints. While the basic structure remains similar, the logic for narrowing down the search space and determining the result can vary significantly based on the problem requirements.
-
-------------
 
 ## **Real-World Application**:
 

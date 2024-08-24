@@ -1,6 +1,5 @@
 # Stacks
 
-**Summary**:
 The Stack pattern utilizes the Last-In-First-Out (LIFO) data structure to solve problems involving nested structures, parsing, or reversing elements. It's particularly useful for problems that involve matching pairs, tracking history, or managing hierarchical data. Stacks provide O(1) time complexity for push and pop operations, making them efficient for problems that require backtracking or maintaining a state history.
 
 ## **Examples**:
@@ -61,9 +60,6 @@ Differences:
   - However, it doesn't require contiguous memory like arrays do.
 
 This linked list implementation demonstrates how the Stack pattern can be applied using different underlying data structures while maintaining the core LIFO principle and O(1) time complexity for basic operations. It's particularly useful in scenarios where the maximum stack size is unknown or where dynamic memory allocation is preferred.
-
-
--------------
 
 ## **Real-World Application**:
 

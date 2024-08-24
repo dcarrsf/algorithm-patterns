@@ -1,9 +1,8 @@
 # Two Pointers
 
-## **Summary**:
 The Two Pointers pattern involves using two pointers to iterate through a data structure, typically an array or linked list. This technique is particularly useful for solving problems that involve searching pairs in a sorted array or linked list, reversing a string or array, or finding a subarray that meets certain conditions. It's efficient because it often allows us to solve problems in a single pass through the data structure, typically achieving O(n) time complexity.
 
-**Examples**:
+## **Examples**:
 1. **[Two Sum](two_sum.js)**: Uses left and right pointer to traverse sorted array
 2. **[Pair](pair.js)**: Shorter version of Two Sum
 3. **[Sub Array](subarray.js)**: Find a contiguous subarray with a given sum
@@ -32,8 +31,6 @@ Problem-specific aspects:
 - The reverse array example actually modifies the input array, while others just search or check conditions.
 
 In summary, while the Two Pointers pattern provides a consistent framework, its implementation can vary significantly based on the specific problem requirements. The key is to understand how to manipulate the pointers to efficiently traverse or modify the data structure in a single pass.
-
---------
 
 ## **Real-World Application**:
 1. **Amazon**: Uses two pointers in their recommendation system to find pairs of frequently bought together items in sorted product lists.
