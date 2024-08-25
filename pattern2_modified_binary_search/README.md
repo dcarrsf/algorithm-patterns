@@ -6,10 +6,9 @@ Modified Binary Search is an adaptation of the classic binary search algorithm. 
 
 ## **Examples**:
 
-1. **[Binary Search](examples/binary_search.js)**: Simple binary search for comparison.
-2. **[Find Peak Element](examples/find_peak_element.js)**: Shows how it can find a peak element in different array configurations, including when there's only one element.
-3. **[Search Range](examples/search_range.js)**: Shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
-4. **[Search Rotated Array](examples/search_rotated_array.js)**: Demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
+1. **[Search Range](examples/search_range.js)**: Shows how it finds both the first and last occurrence of a target, or returns [-1, -1] if not found.
+2. **[Search Rotated Array](examples/search_rotated_array.js)**: Demonstrates finding an element in a rotated sorted array, including cases where the target is present or absent.
+3. **[Find Peak Element](examples/find_peak_element.js)**: Shows how it can find a peak element in different array configurations, including when there's only one element.
 
 ### **Key observations**:
 
@@ -23,21 +22,35 @@ Consistencies:
 Differences:
 
 - Termination condition:
-  - Example 1 and 2 use left <= right, while Example 3 uses left < right.
+  - Example 1 and 2 use left <= right, while Find peak element uses left < right.
 - Mid-point calculation:
   - All use the same method here, but in practice, left + (right - left) / 2 is often preferred to avoid integer overflow.
 - Comparison logic:
-  - Example 1 has additional checks to find the leftmost and rightmost occurrences.
-  - Example 2 has complex logic to handle the rotated array scenario.
-  - Example 3 compares adjacent elements to find a peak.
+  - Search range has additional checks to find the leftmost and rightmost occurrences.
+  - Search rotated array has complex logic to handle the rotated array scenario.
+  - Find peak element compares adjacent elements to find a peak.
 - Return value:
-  - Example 1 returns an array of two indices.
+  - Search range returns an array of two indices.
   - Examples 2 and 3 return a single index.
 - Target of search:
   - Examples 1 and 2 search for a specific target value.
-  - Example 3 searches for a condition (peak element) rather than a specific value.
+  - Find peak element searches for a condition (peak element) rather than a specific value.
 
 The key to Modified Binary Search is adapting the core binary search algorithm to fit the specific problem constraints. While the basic structure remains similar, the logic for narrowing down the search space and determining the result can vary significantly based on the problem requirements.
+
+**[Binary Search](examples/binary_search.js)**: Simple binary search for comparison.
+
+Key points about this implementation:
+
+1. It takes a sorted array and a target value as input.
+2. It uses two pointers, left and right, to define the current search range.
+3. In each iteration, it calculates the middle index and compares the middle element with the target.
+4. Based on the comparison, it adjusts either the left or right pointer to narrow down the search range.
+5. The process continues until the target is found or the search range is empty (left > right).
+6. It returns the index of the target if found, or -1 if not found.
+
+This classic binary search works well for finding exact matches in a sorted array. The modified versions build upon this basic structure to solve more complex problems or work with 
+different types of input arrays.
 
 ## **Real-World Application**:
 
@@ -65,3 +78,6 @@ The key to Modified Binary Search is adapting the core binary search algorithm t
 6. You need to search in a range of real numbers (not just integers).
 
 The key difference between classic and modified binary search is that in modified versions, the decision to go left or right might involve more complex logic than a simple comparison. The core idea of repeatedly dividing the search space in half remains the same, but the conditions for this division can be more sophisticated.
+
+
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)
