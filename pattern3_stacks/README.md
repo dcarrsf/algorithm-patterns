@@ -41,9 +41,7 @@ Differences:
 
 These examples demonstrate the versatility of the Stack pattern in solving different types of problems, from simple validation to complex data structure design, while maintaining the core principle of Last-In-First-Out operations.
 
-### **Linked List Examples**:
-
-1. **[Linked List Stack](linked_list_stack.js)**: Demonstrates how a stack can be implemented without using an array and showcases a different application of the stack pattern.
+**[Linked List Stack](linked_list_stack.js)**: Demonstrates how a stack can be implemented without using an array and showcases a different application of the stack pattern.
 
 Let's compare this linked list implementation with the previous array-based examples:
 
