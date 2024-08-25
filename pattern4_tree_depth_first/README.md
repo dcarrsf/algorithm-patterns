@@ -65,8 +65,7 @@ Space complexity O(h) means that the extra space used by the algorithm grows lin
 
 In tree traversal algorithms using recursion:
 
-1. **Definition of h**:
-    - h is the height of the tree, which is the length of the path from the root to the deepest leaf node.
+1. **Definition of h**:  h is the height of the tree, which is the length of the path from the root to the deepest leaf node.
 2. **Recursive Call Stack**:
     - Each recursive call adds a new frame to the call stack.
     - The maximum number of frames on the call stack at any time is equal to the depth of the current path being explored.
