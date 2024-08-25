@@ -2,10 +2,12 @@
 
 The Stack pattern utilizes the Last-In-First-Out (LIFO) data structure to solve problems involving nested structures, parsing, or reversing elements. It's particularly useful for problems that involve matching pairs, tracking history, or managing hierarchical data. Stacks provide O(1) time complexity for push and pop operations, making them efficient for problems that require backtracking or maintaining a state history.
 
+[Practice Questions](QUESTIONS.md)
+
 ## **Examples**:
-1. **[Parenthesis](parenthesis.js)**: Find matching prenthesis pairs.
-2. **[Nested](nested.js)**: Find nested structure evaluting an expression string.
-3. **[Min Stack](minstack.js)**: Maintains a second stack with minimum values.
+1. **[Parenthesis](examples/parenthesis.js)**: Find matching prenthesis pairs.
+2. **[Nested](examples/nested.js)**: Find nested structure evaluting an expression string.
+3. **[Min Stack](examples/minstack.js)**: Maintains a second stack with minimum values.
 
 ### **Key observations**:
 
