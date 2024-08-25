@@ -1,4 +1,4 @@
-# Practice Questions: Tree Depth First Search
+# Practice Questions: Tree Depth-First Search
 
 Types of questions that prompt using each example:
 1. **Pre-order Traversal**: "Given a binary tree, return the pre-order traversal of its nodes' values."
