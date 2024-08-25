@@ -16,7 +16,7 @@ The response from the prompt cut the list down to 9 popular patterns.
 
 Popular Patterns:
 
-1. **[Two Pointers](pattern1_two_pointers/README.md)**
+1. **[Two Pointers](./pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
 3. **[Stacks](pattern3_stacks/README.md)**
 4. **[Tree Depth-First Search (DFS)](pattern4_tree_depth_first/README.md)**
