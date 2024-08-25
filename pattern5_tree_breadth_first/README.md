@@ -6,7 +6,7 @@ Tree Breadth-First Search is a pattern used to explore or search tree data struc
 
 ## **Examples**:
 1. **[Level Order](examples/level-order.js)**: This is useful for problems requiring level-by-level processing of tree nodes.
-2. **[Min Depth](examples/min_depth.js.js)**: This is applicable to problems involving finding the shortest path or minimum distance in a tree.
+2. **[Min Depth](examples/min_depth.js)**: This is applicable to problems involving finding the shortest path or minimum distance in a tree.
 3. **[Zigzag Level Order](examples/zigzag-level-order.js)**: This is useful for problems requiring alternating direction traversal or when the order within levels needs to be manipulated.
 4. **[Nearest Right Node](examples/nearest_right_node.js)**: This is applicable to problems involving finding relationships between nodes at the same level or nearest neighbor queries in a tree.
 
@@ -22,20 +22,20 @@ Consistencies:
 Differences:
 
 - Return Value:
-  - Example 1 returns a 2D array of level-wise node values.
-  - Example 2 returns a single number (the minimum depth).
-  - Example 3 returns a 2D array with zigzag ordering.
-  - Example 4 returns a node or null.
+  - Level-order returns a 2D array of level-wise node values.
+  - Min depth returns a single number (the minimum depth).
+  - Zigzag-level-order returns a 2D array with zigzag ordering.
+  - Nearest right node returns a node or null.
 - Queue Content:
   - Examples 1, 3, and 4 store only nodes in the queue.
-  - Example 2 stores nodes along with their depths.
+  - Min depth stores nodes along with their depths.
 - Level Processing:
   - Examples 1 and 3 explicitly process each level.
   - Examples 2 and 4 don't necessarily process entire levels.
 - Termination Condition:
   - Examples 1 and 3 process the entire tree.
-  - Example 2 stops at the first leaf node encountered.
-  - Example 4 stops when the target node is found.
+  - Min depth stops at the first leaf node encountered.
+  - Nearest right node stops when the target node is found.
 
 These examples demonstrate how the Tree BFS pattern can be adapted to solve various tree-related problems, particularly those involving level-wise processing or finding the shortest paths in a tree structure.
 
