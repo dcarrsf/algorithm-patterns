@@ -14,7 +14,7 @@ I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the
 
 The response from the prompt cut the list down to 9 popular patterns.
 
-Popular Patterns:
+**Popular Patterns:**
 
 1. **[Two Pointers](./pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
@@ -26,7 +26,7 @@ Popular Patterns:
 8. Dynamic Programming
 9. Sliding Window
 
-Other Patterns:
+**Other Patterns:**
 
 1. Greedy Algorithms
 2. Fast and Slow Pointers
