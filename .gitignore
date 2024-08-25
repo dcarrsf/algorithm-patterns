@@ -130,3 +130,6 @@ dist
 .pnp.*
 
 .DS_Store
+
+QUESTIONS-template.md
+README-template.md
