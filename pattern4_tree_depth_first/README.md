@@ -2,12 +2,14 @@
 
 Tree Depth-First Search is a pattern used to explore or search tree data structures by going as deep as possible along each branch before backtracking. This pattern is particularly useful for problems involving tree traversal, finding paths, or searching for specific nodes or values within a tree. DFS can be implemented recursively or iteratively using a stack, and it has three main variants: pre-order, in-order, and post-order traversal.
 
+[Practice Questions](QUESTIONS.md)
+
 ## **Examples**
 
-1. **[Pre-order Traversal](pre-order.js)**: This is useful for problems that need to process a node before its children.
-2. **[Path Sum](path_sum.js)**: This is used for problems involving path-specific conditions or cumulative values along paths.
-3. **[Max Depth](max_depth.js)**: This is applicable to problems about tree properties like height, depth, or level-related queries.
-4. **[All Paths](all_paths.js)**: This is useful for problems that require collecting or processing all possible paths in a tree.
+1. **[Pre-order Traversal](examples/pre-order.js)**: This is useful for problems that need to process a node before its children.
+2. **[Path Sum](examples/path_sum.js)**: This is used for problems involving path-specific conditions or cumulative values along paths.
+3. **[Max Depth](examples/max_depth.js)**: This is applicable to problems about tree properties like height, depth, or level-related queries.
+4. **[All Paths](examples/all_paths.js)**: This is useful for problems that require collecting or processing all possible paths in a tree.
 
 ### **Key observations**:
 
@@ -35,7 +37,7 @@ Differences:
 - Backtracking:
   - Max depth explicitly uses backtracking by creating new path arrays for each recursive call.
 
-**[Post-order Traversal](post-order.js)**: To round out the concept, here is an example that processes a node after its children. 
+**[Post-order Traversal](examples/post-order.js)**: To round out the concept, here is an example that processes a node after its children. 
 
 Post-order traversal is particularly useful in scenarios where you need to process children before their parent, such as:
 
@@ -46,7 +48,7 @@ Post-order traversal is particularly useful in scenarios where you need to proce
 
 The choice between pre-order, in-order, and post-order traversal depends on the specific requirements of the problem you're solving and the order in which you need to process the nodes in the tree.
 
-**[Iteration with a Stack](iteration.js)**: This example uses a while loop instead of recursion.
+**[Iteration with a Stack](examples/iteration.js)**: This example uses a while loop instead of recursion.
 
 When to use iterative DFS with a stack:
 
