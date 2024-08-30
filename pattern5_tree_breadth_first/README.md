@@ -39,6 +39,34 @@ Differences:
 
 These examples demonstrate how the Tree BFS pattern can be adapted to solve various tree-related problems, particularly those involving level-wise processing or finding the shortest paths in a tree structure.
 
+## Space Complexity O(w)
+
+The space complexity of the Tree BFS algorithm is different from that of the DFS algorithm. 
+
+For Tree Breadth-First Search, the space complexity is O(w), where w is the maximum width of the tree.
+
+Here's why:
+
+1. BFS uses a queue to store nodes at each level of the tree.
+2. The queue will be at its largest when it contains all the nodes at the widest level of the tree.
+3. In the worst case, this could be the last level of a complete binary tree, which can contain up to n/2 nodes (where n is the total number of nodes).
+
+For Tree Depth-First Search, the space complexity is O(h), where h is the height of the tree.
+
+This is because:
+
+1. DFS uses the call stack (for recursive implementation) or an explicit stack (for iterative implementation).
+2. The maximum space used will be proportional to the height of the tree.
+
+Comparison:
+
+- BFS: O(w) - width-dependent
+- DFS: O(h) - height-dependent
+
+In practice, the space complexity of BFS can be much larger than DFS, especially for wide, shallow trees. For a balanced binary tree, the width can be up to 2^h, while the height is log(n). In such cases, BFS would use significantly more space.
+
+However, for deep, narrow trees, DFS might use more space. In the extreme case of a skewed tree (essentially a linked list), DFS would use O(n) space while BFS would use O(1).
+
 ## **Real-World Applications**:
 
 1. **Social Network Analysis**: Finding all friends within a certain degree of connection.
