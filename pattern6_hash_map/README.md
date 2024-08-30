@@ -8,7 +8,7 @@ Hash Maps are incredibly useful because they allow for quick lookups and efficie
 
 ## **Examples**:
 1. **[Lookup Table (Caching)](examples/cache.js)**: Shows how repeated expensive calculations can be avoided.
-2. **[Key-Value Paird (Database)](examples/constant-time-inventory.js)**: Illustrates simple CRUD (Create, Read, Update, Delete) operations.
+2. **[Key-Value Pair (Database)](examples/constant-time-inventory.js)**: Illustrates simple CRUD (Create, Read, Update, Delete) operations.
 3. **[Inventory Counter](examples/key-value-database.js)**: Demonstrates real-time tracking of item quantities.
 3. **[Word Frequency Counter](examples/word-frequency-counter.js)**: Shows how to analyze text data efficiently.
 
@@ -30,7 +30,9 @@ Differences:
 
 ## Heap Memory Example
 
-**[Heap Memory Simulator](examples/heap-memory-simulator.js)**: Demonstratesa more complex use of a Hash Map to simulate heap memory allocation.
+**[Heap Memory Simulator](examples/heap-memory-simulator.js)**: Demonstratesa a more complex use of a Hash Map to simulate heap memory allocation. 
+
+As a dynamic high-level language, JavaScript does not have direct memory management, but simulating heap memory management with a hash map can be an effective tool for learning the general concepts.
 
 Here's a breakdown of the key components:
 
