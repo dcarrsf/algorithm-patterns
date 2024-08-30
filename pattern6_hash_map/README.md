@@ -76,11 +76,11 @@ To improve our hash method and handle collisions, we could implement one of thes
 
 1. **Chaining (Open Hashing)**: In this approach, each slot of the hash table is a linked list. When a collision occurs, the new item is appended to the list at that slot.
 2. **Open Addressing (Closed Hashing)**: This method finds the next open slot in the hash table when a collision occurs. Common techniques include:
-  - Linear Probing: Check the next slot sequentially.
-  - Quadratic Probing: Check slots at quadratic intervals.
-  - Double Hashing: Use a second hash function to determine the interval.
+- Linear Probing: Check the next slot sequentially.
+- Quadratic Probing: Check slots at quadratic intervals.
+- Double Hashing: Use a second hash function to determine the interval.
 
-Here's how we could modify our **HeapMemorySimulator class** to implement open addressing with linear probing:
+Here's how we could modify the **HeapMemorySimulator class** to implement open addressing with linear probing:
 
 ```javascript
 class HeapMemorySimulator {
@@ -137,8 +137,6 @@ Key changes:
 3. The set method keeps trying new hash values until it finds an empty slot or determines the table is full.
 4. The get method searches for the correct block by checking addresses, not just hash values.
 
-These modifications would need to be integrated into the rest of the **HeapMemorySimulator class**, particularly in the **allocate** and **deallocate** methods.
-
 Benefits of this approach:
 
 1. Handles collisions gracefully
@@ -156,7 +154,6 @@ Alternative Improvements:
 2. Implement dynamic resizing of the hash table to maintain a low load factor.
 3. Use [quadratic probing](examples/heap-memory-simulator-quadratic.js) or double hashing instead of linear probing to reduce clustering.
 
-By implementing these changes, we would create a more robust and realistic simulation of heap memory allocation, better handling the complexities that arise in real-world memory management systems.
 
 ## Real-World Applications:
 
