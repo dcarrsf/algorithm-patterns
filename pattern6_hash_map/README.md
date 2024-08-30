@@ -50,7 +50,113 @@ Key points about this implementation:
 3. It simulates memory fragmentation and coalescing, common issues in real heap memory management.
 4. The allocator tries to find contiguous free blocks to satisfy allocation requests.
 
-This example showcases how Hash Maps can be used in more complex scenarios, such as memory management systems. It demonstrates efficient lookup and modification of memory blocks using hashing, which is crucial for performance in real-world memory allocators.
+**Hash Collisions**:
+
+Hash collisions are a critical consideration in hash table implementations, including our simulated heap memory allocator. Let's discuss how collisions are handled in the current implementation and how we could improve it.
+
+In our current hash method:
+
+```javascript
+hash(address) {
+    // Simple hash function: address modulo total size
+    return address % this.totalSize;
+}
+```
+
+This hash function does not explicitly handle collisions. It simply maps each address to a slot in the hash table by taking the modulus of the address with the total size of the memory.
+
+Potential Issues:
+
+1. **Collisions**: If two different addresses produce the same hash value, we have a collision. Our current implementation doesn't handle this scenario.
+2. **Inefficient space usage**: The current method might not distribute keys uniformly across all available slots, potentially leading to clustering.
+
+Handling Collisions:
+
+To improve our hash method and handle collisions, we could implement one of these common techniques:
+
+1. **Chaining (Open Hashing)**: In this approach, each slot of the hash table is a linked list. When a collision occurs, the new item is appended to the list at that slot.
+2. **Open Addressing (Closed Hashing)**: This method finds the next open slot in the hash table when a collision occurs. Common techniques include:
+  - Linear Probing: Check the next slot sequentially.
+  - Quadratic Probing: Check slots at quadratic intervals.
+  - Double Hashing: Use a second hash function to determine the interval.
+
+Here's how we could modify our **HeapMemorySimulator class** to implement open addressing with linear probing:
+
+```javascript
+class HeapMemorySimulator {
+    constructor(totalSize, blockSize) {
+        this.totalSize = totalSize;
+        this.blockSize = blockSize;
+        this.memory = new Map();
+        this.initializeMemory();
+    }
+
+    hash(address, attempt = 0) {
+        // Primary hash function
+        let hash = address % this.totalSize;
+        
+        // Linear probing
+        return (hash + attempt) % this.totalSize;
+    }
+
+    set(address, block) {
+        let attempt = 0;
+        let hash;
+        do {
+            hash = this.hash(address, attempt);
+            if (!this.memory.has(hash)) {
+                this.memory.set(hash, block);
+                return;
+            }
+            attempt++;
+        } while (attempt < this.totalSize);
+        throw new Error("Hash table is full");
+    }
+
+    get(address) {
+        let attempt = 0;
+        let hash;
+        do {
+            hash = this.hash(address, attempt);
+            if (this.memory.has(hash) && this.memory.get(hash).address === address) {
+                return this.memory.get(hash);
+            }
+            attempt++;
+        } while (attempt < this.totalSize && this.memory.has(hash));
+        return null;
+    }
+
+    // ... (rest of the class implementation)
+}
+```
+
+Key changes:
+
+1. The hash method now takes an optional attempt parameter for linear probing.
+2. We've added set and get methods to handle insertion and retrieval with collision resolution.
+3. The set method keeps trying new hash values until it finds an empty slot or determines the table is full.
+4. The get method searches for the correct block by checking addresses, not just hash values.
+
+These modifications would need to be integrated into the rest of the **HeapMemorySimulator class**, particularly in the **allocate** and **deallocate** methods.
+
+Benefits of this approach:
+
+1. Handles collisions gracefully
+2. Maintains O(1) average-case time complexity for insertions and lookups
+3. Efficient use of memory space
+
+Drawbacks:
+
+1. Performance degrades as the hash table becomes more full
+2. Can suffer from primary clustering (grouping of occupied slots)
+
+Alternative Improvements:
+
+1. Use a more sophisticated hash function to reduce collisions in the first place.
+2. Implement dynamic resizing of the hash table to maintain a low load factor.
+3. Use [quadratic probing](examples/heap-memory-simulator-quadratic.js) or double hashing instead of linear probing to reduce clustering.
+
+By implementing these changes, we would create a more robust and realistic simulation of heap memory allocation, better handling the complexities that arise in real-world memory management systems.
 
 ## Real-World Applications:
 
@@ -80,4 +186,4 @@ This example showcases how Hash Maps can be used in more complex scenarios, such
 6. You need to check for duplicates in a large dataset efficiently.
 7. The question involves mapping one set of values to another.
 
-[Practice Questions](QUESTIONS.md) | [Examples](/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

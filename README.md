@@ -21,7 +21,7 @@ The response from the prompt cut the list down to 9 popular patterns.
 3. **[Stacks](pattern3_stacks/README.md)**
 4. **[Tree Depth-First Search (DFS)](pattern4_tree_depth_first/README.md)**
 5. **[Tree Breadth-First Search (BFS)](pattern5_tree_breadth_first/README.md)**
-6. Hash Maps
+6. **[Hash Maps](pattern6_hash_maps/README.md)**
 7. Top K Elements
 8. Dynamic Programming
 9. Sliding Window
