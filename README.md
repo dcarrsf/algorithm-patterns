@@ -4,11 +4,11 @@ Algorithm studies project using AI assistance to define patterns, examples, and 
 
 I'm continuing the idea started by Ed Skwareki in his Medium article [How ChatGPT is Helping Me Recognize LeetCode Coding Patterns](https://medium.com/@edskwarecki/how-chatgpt-is-helping-me-recognize-leetcode-coding-patterns-32fca706d9ba).
 
-## Context
+I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the list of 27 algorithm patterns to use as guidelines for the study topics. For each algorithm pattern, I prompted for an overview and a comparison of 4 examples. From there I refined the prompts according to the algorithm, reviewing time complexity, important related concepts, and alternative approaches.
 
-I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the list of 27 algorithm patterns to use as guidelines for the study topics. The response from the initial prompt cut the list down to 9 popular patterns.
+## Popular Patterns:
 
-**Popular Patterns:**
+The initial prompt cut the list down to 9 popular patterns.
 
 1. **[Two Pointers](./pattern1_two_pointers/README.md)**
 2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
@@ -17,7 +17,7 @@ I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the
 5. **[Tree Breadth-First Search (BFS)](pattern5_tree_breadth_first/README.md)**
 6. **[Hash Maps](pattern6_hash_map/README.md)**
 7. **[Top K Elements](pattern7_top_k_elements/README.md)**
-8. Dynamic Programming
+8. **[Dynamic Programming](pattern8_dynamic_programming/README.md)**
 9. Sliding Window
 
 **Other Patterns:**
