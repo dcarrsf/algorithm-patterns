@@ -20,7 +20,9 @@ The initial prompt cut the list down to 9 popular patterns.
 8. **[Dynamic Programming](pattern8_dynamic_programming/README.md)**
 9. Sliding Window
 
-**Other Patterns:**
+## Other Patterns:
+
+The remaining 18 patterns new concepts as well as variations of the 9 popular patterns.
 
 1. Greedy Algorithms
 2. Fast and Slow Pointers
