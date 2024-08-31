@@ -72,87 +72,14 @@ Potential Issues:
 
 Handling Collisions:
 
-To improve our hash method and handle collisions, we could implement one of these common techniques:
+To improve our hash method and handle collisions, we could implement one of these [common techniques](examples/README.md):
 
 1. **Chaining (Open Hashing)**: In this approach, each slot of the hash table is a linked list. When a collision occurs, the new item is appended to the list at that slot.
+- **[Chaining](examples/heap-memory-simulator-chaining.js)**
 2. **Open Addressing (Closed Hashing)**: This method finds the next open slot in the hash table when a collision occurs. Common techniques include:
-- Linear Probing: Check the next slot sequentially.
-- Quadratic Probing: Check slots at quadratic intervals.
-- Double Hashing: Use a second hash function to determine the interval.
-
-Here's how we could modify the **HeapMemorySimulator class** to implement open addressing with linear probing:
-
-```javascript
-class HeapMemorySimulator {
-    constructor(totalSize, blockSize) {
-        this.totalSize = totalSize;
-        this.blockSize = blockSize;
-        this.memory = new Map();
-        this.initializeMemory();
-    }
-
-    hash(address, attempt = 0) {
-        // Primary hash function
-        let hash = address % this.totalSize;
-        
-        // Linear probing
-        return (hash + attempt) % this.totalSize;
-    }
-
-    set(address, block) {
-        let attempt = 0;
-        let hash;
-        do {
-            hash = this.hash(address, attempt);
-            if (!this.memory.has(hash)) {
-                this.memory.set(hash, block);
-                return;
-            }
-            attempt++;
-        } while (attempt < this.totalSize);
-        throw new Error("Hash table is full");
-    }
-
-    get(address) {
-        let attempt = 0;
-        let hash;
-        do {
-            hash = this.hash(address, attempt);
-            if (this.memory.has(hash) && this.memory.get(hash).address === address) {
-                return this.memory.get(hash);
-            }
-            attempt++;
-        } while (attempt < this.totalSize && this.memory.has(hash));
-        return null;
-    }
-
-    // ... (rest of the class implementation)
-}
-```
-
-Key changes:
-
-1. The hash method now takes an optional attempt parameter for linear probing.
-2. We've added set and get methods to handle insertion and retrieval with collision resolution.
-3. The set method keeps trying new hash values until it finds an empty slot or determines the table is full.
-4. The get method searches for the correct block by checking addresses, not just hash values.
-
-Benefits of this approach:
-
-1. Handles collisions gracefully
-2. Maintains O(1) average-case time complexity for insertions and lookups
-3. Efficient use of memory space
-
-Drawbacks:
-
-1. Performance degrades as the hash table becomes more full
-2. Can suffer from primary clustering (grouping of occupied slots)
-
-Alternative Improvements:
-
-1. Use a more sophisticated hash function to reduce collisions in the first place.
-2. Implement dynamic resizing of the hash table to maintain a low load factor.
-3. Use [quadratic probing](examples/heap-memory-simulator-quadratic.js) or double hashing instead of linear probing to reduce clustering.
+- **[Linear Probing](examples/heap-memory-simulator-linear.js)**: Check the next slot sequentially.
+- **[Quadratic Probing](examples/heap-memory-simulator-quadratic.js)**: Check slots at quadratic intervals.
+- **[Double Hashing](examples/heap-memory-simulator-double-hashing.js)**: Use a second hash function to determine the interval.
 
 
 ## Real-World Applications:
@@ -183,4 +110,4 @@ Alternative Improvements:
 6. You need to check for duplicates in a large dataset efficiently.
 7. The question involves mapping one set of values to another.
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/README.md)
