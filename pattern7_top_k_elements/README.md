@@ -41,17 +41,17 @@ The key is recognizing when a problem can be solved by maintaining a set of K "b
 
 For most "Top K Elements" problems using a heap, the time complexity is **O(N log K)**, where N is the number of elements in the input array and K is the number of top elements we're trying to find.
 
-**Space Complexity**:
+Space Complexity**:
 
 For all these algorithms, the space complexity is O(K) as we're maintaining a heap of at most K elements.
 
-**Optimizations and Trade-offs**:
+Optimizations and Trade-offs:
 
 1. If K is close to N, it might be more efficient to sort the entire array, which would be O(N log N).
 2. For the Kth Largest Element problem, there's an alternative approach using QuickSelect which has an average time complexity of O(N) but a worst-case of O(N^2).
 3. For small K, the difference between O(N log K) and O(N log N) is significant, making the heap approach preferable.
 
-**Comparison to Sorting**:
+Comparison to Sorting:
 
 - Sorting the entire array would take O(N log N) time.
 - For K << N, our heap approach of O(N log K) is more efficient.
