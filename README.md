@@ -18,7 +18,7 @@ The initial prompt cut the list down to 9 popular patterns.
 6. **[Hash Maps](pattern6_hash_map/README.md)**
 7. **[Top K Elements](pattern7_top_k_elements/README.md)**
 8. **[Dynamic Programming](pattern8_dynamic_programming/README.md)**
-9. Sliding Window
+9. **[Sliding Window](pattern9_sliding_window/README.md)**
 
 ## Other Patterns:
 
