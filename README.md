@@ -22,7 +22,7 @@ The initial prompt cut the list down to 9 popular patterns.
 
 ## Other Patterns:
 
-The remaining 18 patterns new concepts as well as variations of the 9 popular patterns.
+The remaining 18 patterns ontroduce new concepts as well as variations of the 9 popular patterns.
 
 1. Greedy Algorithms
 2. Fast and Slow Pointers
