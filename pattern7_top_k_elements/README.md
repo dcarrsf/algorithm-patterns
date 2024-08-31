@@ -41,7 +41,7 @@ The key is recognizing when a problem can be solved by maintaining a set of K "b
 
 For most "Top K Elements" problems using a heap, the time complexity is **O(N log K)**, where N is the number of elements in the input array and K is the number of top elements we're trying to find.
 
-Space Complexity**:
+Space Complexity:
 
 For all these algorithms, the space complexity is O(K) as we're maintaining a heap of at most K elements.
 
