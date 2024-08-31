@@ -5,10 +5,14 @@ Dynamic Programming (DP) is an algorithmic technique that solves complex problem
 [Practice Questions](QUESTIONS.md)
 
 ## **Examples**:
-1. **[Maximum Subarray Sum (Kadane's Algorithm)](examples/maximum-subarray-sum.js)**: 
-2. **[Longest Increasing Subsequence](examples/longest-increasing-subsequence.js)**: 
-3. **[Coin Change (Minimum Coins)](examples/coin-change.js)**: 
-4. **[Climbing Stairs](examples/climbing-stairs.js)**: 
+1. **[Maximum Subarray Sum (Kadane's Algorithm)](examples/maximum-subarray-sum.js)**: Find largest sum of contiguous array elements.
+2. **[Longest Increasing Subsequence](examples/longest-increasing-subsequence.js)**: Longest sequence of increasing numbers in array.
+3. **[Coin Change (Minimum Coins)](examples/coin-change.js)**: Fewest coins needed for a target amount.
+4. **[Climbing Stairs](examples/climbing-stairs.js)**: Count ways to climb n stairs, 1-2 steps.
+5. **[Knapsack Problem](examples/knapsack.js)**: Optimization with constraints
+6. **[Longest Common Subsequence](examples/longest-common-subsequence.js)**: Finding common patterns in sequences
+7. **[Edit Distance](examples/edit-distance.js)**: Measuring similarity between sequences
+8. **[Palindromic Substrings](examples/palindromic-substrings.js)**: Counting specific patterns within a sequence
 
 ### **Key observations**:
 
@@ -57,4 +61,4 @@ These examples demonstrate how Dynamic Programming can be applied to various typ
 6. **Can't use Greedy**: If a greedy approach doesn't work, DP might be the next best option.
 
 
-[Practice Questions](QUESTIONS.md) | [Examples](./examples/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)
