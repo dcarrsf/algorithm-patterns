@@ -24,21 +24,21 @@ The initial prompt cut the list down to 9 popular patterns.
 
 The remaining 18 patterns introduce new concepts as well as variations of the 9 popular patterns.
 
-1. Greedy Algorithms
-2. Fast and Slow Pointers
-3. In-Place Manipulation of a Linked List
-4. Matrices
-5. Two Heaps
-6. Merge Intervals
-7. K-Way Merge
-8. Backtracking
-9. Subsets
-10. Graphs
-11. Trie
-12. Custom Data Structures
-13. Topological Sort
-14. Union Find
-15. Island (Matrix Traversal)
-16. Monotonic Stacks
-17. Cyclic Sort
-18. Bitwise XOR
+10. Greedy Algorithms
+11. Fast and Slow Pointers
+12. In-Place Manipulation of a Linked List
+13. Matrices
+14. Two Heaps
+15. Merge Intervals
+16. K-Way Merge
+17. Backtracking
+18. Subsets
+19. Graphs
+20. **[Trie](pattern20_trie/README.md)**
+21. Custom Data Structures
+22. Topological Sort
+23. Union Find
+24. Island (Matrix Traversal)
+25. Monotonic Stacks
+26. Cyclic Sort
+27. Bitwise XOR
