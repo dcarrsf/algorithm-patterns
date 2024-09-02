@@ -10,7 +10,7 @@ A Trie, also known as a prefix tree, is a tree-like data structure used to store
 3. **[Word Search in Grid](examples/word-search.js)**: Grid-based word finder using trie traversal
 4. **[IP Address Routing Table](examples/routing-table.js)**: Longest prefix matching for IP routing
 
-### **Observations**:
+### **Key Observations**:
 
 Consistencies:
 
