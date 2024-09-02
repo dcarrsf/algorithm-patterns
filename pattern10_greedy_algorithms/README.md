@@ -30,6 +30,8 @@ Differences
 
 ## Complexity
 
+Greedy algorithms are generally known for their efficiency. 
+
 1. **Time Complexity**: Greedy algorithms often have a time complexity of O(n log n) due to an initial sorting step, followed by O(n) processing.
 2. **Space Complexity**: Space complexity is often O(n) for storing input or output, but can sometimes be optimized to O(1) for in-place operations.
 3. **Efficiency**: Greedy algorithms are typically more efficient than dynamic programming or backtracking approaches for problems where they can be applied correctly.
