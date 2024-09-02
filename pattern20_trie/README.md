@@ -66,7 +66,7 @@ Keywords:
 - "String storage and retrieval"
 - "Character-by-character processing"
 
-Prompts:
+Characteristics:
 
 1. The problem involves efficiently storing and searching for strings or words.
 2. You need to perform prefix-based operations or searches.
