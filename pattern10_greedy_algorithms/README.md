@@ -30,14 +30,14 @@ Differences
 
 ## Complexity
 
-General Observations:
-
 1. **Time Complexity**: Greedy algorithms often have a time complexity of O(n log n) due to an initial sorting step, followed by O(n) processing.
 2. **Space Complexity**: Space complexity is often O(n) for storing input or output, but can sometimes be optimized to O(1) for in-place operations.
 3. **Efficiency**: Greedy algorithms are typically more efficient than dynamic programming or backtracking approaches for problems where they can be applied correctly.
 4. **Trade-off**: The efficiency of greedy algorithms comes at the cost of not always guaranteeing the optimal solution for every problem.
 
 ## Ways to Identify
+
+By identifying these characteristics in the problem statement, you can recognize the Greedy Algorithms pattern and apply the appropriate problem-solving techniques.
 
 Real-World Applications:
 
@@ -64,8 +64,6 @@ Characteristics:
 3. **Time/Space Constraints**: Does the problem require a fast, efficient solution, and can the Greedy Algorithms pattern provide a good balance between simplicity, speed, and acceptable accuracy?
 4. **Sorting or Prioritization**: Does the problem involve sorting or prioritizing elements based on certain criteria?
 5. **Resource Allocation or Scheduling**: Does the problem involve allocating resources or scheduling tasks in an optimal way?
-
-By identifying these characteristics in the problem statement, you can recognize the Greedy Algorithms pattern and apply the appropriate problem-solving techniques.
 
 
 [Practice Questions](QUESTIONS.md) | [Examples](examples/)
