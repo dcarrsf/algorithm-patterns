@@ -27,6 +27,25 @@ Differences:
 
 These examples demonstrate the versatility of the Trie data structure in solving various string and prefix-based problems efficiently. While the core concept remains the same, each implementation is tailored to address specific problem requirements, showcasing how Tries can be adapted to different scenarios in software engineering.
 
+## Complexity
+
+Time Complexity:
+
+1. **Insertion**: O(L), where L is the length of the word being inserted. This is because we need to traverse the trie character by character to insert the word.
+2. **Search**: O(L), where L is the length of the word being searched. Similar to insertion, we need to traverse the trie character by character to find the word.
+3. **Prefix Search**: O(P), where P is the length of the prefix. This is because we need to traverse the trie up to the last character of the prefix.
+4. **Word Search in a Grid**: O(M * N * 3^L), where M is the number of rows, N is the number of columns in the grid, and L is the maximum length of the words. The time complexity is high due to the depth-first search (DFS) performed for each cell in the grid.
+5. **Longest Prefix Match (IP Routing)**: O(L), where L is the length of the IP address. This is because we need to traverse the trie character by character to find the longest prefix match.
+
+Space Complexity:
+
+1. **Trie Structure**: O(N * L), where N is the number of words stored in the trie, and L is the average length of the words. This is because each node in the trie stores a character, and we need to store all the words.
+2. **Autocomplete Tri**e: O(N * L), similar to the basic Trie structure, where N is the number of words stored, and L is the average length of the words.
+3. **Word Search Trie**: O(N * L), where N is the number of words stored, and L is the average length of the words. The additional space is required to store the visited status for the grid-based search.
+4. **IP Routing Trie**: O(N * L), where N is the number of prefixes stored, and L is the length of the longest prefix. The space complexity is similar to the basic Trie structure.
+
+In summary, Trie algorithms generally have efficient time complexities for common operations, such as insertion, search, and prefix-based searches, with linear time complexity. However, the space complexity can be higher, especially when storing a large number of words or prefixes. The exact time and space complexities may vary depending on the specific problem and implementation details.
+
 ## Real-World Applications:
 
 1. **Google Search**: Uses Tries for autocomplete suggestions as users type in the search bar.
