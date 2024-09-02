@@ -2,9 +2,7 @@
 
 Algorithm studies project using AI assistance to define patterns, examples, and approaches to solving challenge problems.
 
-I'm continuing the idea started by Ed Skwareki in his Medium article [How ChatGPT is Helping Me Recognize LeetCode Coding Patterns](https://medium.com/@edskwarecki/how-chatgpt-is-helping-me-recognize-leetcode-coding-patterns-32fca706d9ba).
-
-I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the list of 27 algorithm patterns to use as guidelines for the study topics. For each algorithm pattern, I prompted for an overview and a comparison of 4 examples. From there I refined the prompts according to the algorithm, reviewing time complexity, important related concepts, and alternative approaches.
+I'm continuing the idea started by Ed Skwareki in his Medium article [How ChatGPT is Helping Me Recognize LeetCode Coding Patterns](https://medium.com/@edskwarecki/how-chatgpt-is-helping-me-recognize-leetcode-coding-patterns-32fca706d9ba). I used the list of 27 algorithm patterns identified in the article as guidelines for the study topics below. 
 
 ## Popular Patterns:
 
@@ -21,8 +19,6 @@ The initial prompt cut the list down to 9 popular patterns.
 9. **[Sliding Window](pattern09_sliding_window/README.md)**
 
 ## Other Patterns:
-
-The remaining 18 patterns introduce new concepts as well as variations of the 9 popular patterns.
 
 10. **[Greedy Algorithms](pattern10_greedy_algorithms/README.md)**
 11. Fast and Slow Pointers
