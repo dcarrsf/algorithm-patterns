@@ -4,13 +4,20 @@ A Trie, also known as a prefix tree, is a tree-like data structure used to store
 
 [Practice Questions](QUESTIONS.md)
 
+## Real-World Applications:
+
+1. **Google Search**: Uses Tries for autocomplete suggestions as users type in the search bar.
+2. **Spell checkers**: Microsoft Word and other text editors use Tries to quickly verify if a word exists in the dictionary.
+3. **IP routing tables**: Networking equipment uses Trie-like structures for efficient IP address lookups.
+4. **Autocomplete in IDEs**: Development environments like Visual Studio Code use Tries for code completion suggestions.
+
 ## **Examples**:
 1. **[Basic Trie](examples/basic-trie.js)**: Efficient word storage and prefix checking structure
 2. **[Autocomplete](examples/autocomplete.js)**: Fast prefix-based word suggestion generator
 3. **[Word Search in Grid](examples/word-search.js)**: Grid-based word finder using trie traversal
 4. **[IP Address Routing Table](examples/routing-table.js)**: Longest prefix matching for IP routing
 
-### **Key observations**:
+### **Observations**:
 
 Consistencies:
 
@@ -69,10 +76,3 @@ Prompts:
 6. You need to optimize space usage for storing a large number of strings with common prefixes.
 
 [Practice Questions](QUESTIONS.md) | [Examples](examples/)
-
-## Real-World Applications:
-
-1. **Google Search**: Uses Tries for autocomplete suggestions as users type in the search bar.
-2. **Spell checkers**: Microsoft Word and other text editors use Tries to quickly verify if a word exists in the dictionary.
-3. **IP routing tables**: Networking equipment uses Trie-like structures for efficient IP address lookups.
-4. **Autocomplete in IDEs**: Development environments like Visual Studio Code use Tries for code completion suggestions.
