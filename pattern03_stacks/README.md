@@ -89,3 +89,5 @@ This linked list implementation demonstrates how the Stack pattern can be applie
 6. You need to keep track of the most recent elements or operations.
 
 The Stack pattern is versatile and can be implemented using either an array (in languages that support dynamic arrays) or a linked list. The key operations are push (add to top), pop (remove from top), and peek (view top without removing).
+
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

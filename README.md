@@ -10,15 +10,15 @@ I chose to work with [Claude.ai](https://www.anthropic.com/claude) and input the
 
 The initial prompt cut the list down to 9 popular patterns.
 
-1. **[Two Pointers](./pattern1_two_pointers/README.md)**
-2. **[Modified Binary Search](pattern2_modified_binary_search/README.md)**
-3. **[Stacks](pattern3_stacks/README.md)**
-4. **[Tree Depth-First Search (DFS)](pattern4_tree_depth_first/README.md)**
-5. **[Tree Breadth-First Search (BFS)](pattern5_tree_breadth_first/README.md)**
-6. **[Hash Maps](pattern6_hash_map/README.md)**
-7. **[Top K Elements](pattern7_top_k_elements/README.md)**
-8. **[Dynamic Programming](pattern8_dynamic_programming/README.md)**
-9. **[Sliding Window](pattern9_sliding_window/README.md)**
+1. **[Two Pointers](pattern01_two_pointers/README.md)**
+2. **[Modified Binary Search](pattern02_modified_binary_search/README.md)**
+3. **[Stacks](pattern03_stacks/README.md)**
+4. **[Tree Depth-First Search (DFS)](pattern04_tree_depth_first/README.md)**
+5. **[Tree Breadth-First Search (BFS)](pattern05_tree_breadth_first/README.md)**
+6. **[Hash Maps](pattern06_hash_map/README.md)**
+7. **[Top K Elements](pattern07_top_k_elements/README.md)**
+8. **[Dynamic Programming](pattern08_dynamic_programming/README.md)**
+9. **[Sliding Window](pattern09_sliding_window/README.md)**
 
 ## Other Patterns:
 

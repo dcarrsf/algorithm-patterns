@@ -55,4 +55,4 @@ Differences:
 6. You're asked to find the maximum or minimum sum of a subarray of a specific size.
 7. The problem requires maintaining a set of elements that fulfill certain conditions while traversing the array.
 
-[Practice Questions](QUESTIONS.md) | [Examples](/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

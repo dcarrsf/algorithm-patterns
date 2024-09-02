@@ -93,4 +93,4 @@ In practice, the choice between these approaches often depends on the specific v
 
 When you encounter a problem that matches these characteristics, consider using the "Top K Elements" pattern. It's often implemented using a heap data structure in JavaScript, which provides efficient operations for maintaining a sorted subset of elements.
 
-[Practice Questions](QUESTIONS.md) | [Examples](README.md)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

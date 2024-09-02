@@ -54,4 +54,4 @@ These examples demonstrate the versatility of the Trie data structure in solving
 
 When you encounter a problem that matches these characteristics, considering a Trie-based solution could be beneficial.
 
-[Practice Questions](QUESTIONS.md) | [Examples](/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

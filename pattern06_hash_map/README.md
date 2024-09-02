@@ -110,4 +110,4 @@ To improve our hash method and handle collisions, we could implement one of thes
 6. You need to check for duplicates in a large dataset efficiently.
 7. The question involves mapping one set of values to another.
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/README.md)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

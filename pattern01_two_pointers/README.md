@@ -53,3 +53,5 @@ In summary, while the Two Pointers pattern provides a consistent framework, its 
 3. The problem asks about palindromes or reversing strings.
 4. You're dealing with an array and need to find a contiguous subarray that meets specific criteria.
 5. The problem requires comparing elements at different positions within an array.
+
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)

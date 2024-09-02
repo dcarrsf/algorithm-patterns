@@ -131,3 +131,5 @@ Understanding space complexity in terms of tree height (h) rather than total nod
 6. You need to find the deepest nodes or leaves in a tree.
 
 Tree DFS is highly versatile and can be adapted to solve a wide range of tree-related problems. Its effectiveness comes from its ability to explore deep paths quickly and its relatively simple implementation, especially when using recursion. The choice between DFS and other tree traversal methods (like BFS) often depends on the specific requirements of the problem and the structure of the tree.
+
+[Practice Questions](QUESTIONS.md) | [Examples](examples/)
