@@ -46,14 +46,11 @@ Space Complexity:
 
 In summary, Trie algorithms generally have efficient time complexities for common operations, such as insertion, search, and prefix-based searches, with linear time complexity. However, the space complexity can be higher, especially when storing a large number of words or prefixes. The exact time and space complexities may vary depending on the specific problem and implementation details.
 
-## Real-World Applications:
+## Ways to Identify:
 
-1. **Google Search**: Uses Tries for autocomplete suggestions as users type in the search bar.
-2. **Spell checkers**: Microsoft Word and other text editors use Tries to quickly verify if a word exists in the dictionary.
-3. **IP routing tables**: Networking equipment uses Trie-like structures for efficient IP address lookups.
-4. **Autocomplete in IDEs**: Development environments like Visual Studio Code use Tries for code completion suggestions.
+When you encounter a problem that matches these characteristics, considering a Trie-based solution could be beneficial.
 
-## Keywords:
+Keywords:
 
 - "Prefix matching"
 - "Autocomplete"
@@ -62,7 +59,7 @@ In summary, Trie algorithms generally have efficient time complexities for commo
 - "String storage and retrieval"
 - "Character-by-character processing"
 
-## Ways to Identify:
+Prompts:
 
 1. The problem involves efficiently storing and searching for strings or words.
 2. You need to perform prefix-based operations or searches.
@@ -71,6 +68,11 @@ In summary, Trie algorithms generally have efficient time complexities for commo
 5. The problem requires finding all words with a given prefix.
 6. You need to optimize space usage for storing a large number of strings with common prefixes.
 
-When you encounter a problem that matches these characteristics, considering a Trie-based solution could be beneficial.
-
 [Practice Questions](QUESTIONS.md) | [Examples](examples/)
+
+## Real-World Applications:
+
+1. **Google Search**: Uses Tries for autocomplete suggestions as users type in the search bar.
+2. **Spell checkers**: Microsoft Word and other text editors use Tries to quickly verify if a word exists in the dictionary.
+3. **IP routing tables**: Networking equipment uses Trie-like structures for efficient IP address lookups.
+4. **Autocomplete in IDEs**: Development environments like Visual Studio Code use Tries for code completion suggestions.
