@@ -24,7 +24,7 @@ The initial prompt cut the list down to 9 popular patterns.
 
 The remaining 18 patterns introduce new concepts as well as variations of the 9 popular patterns.
 
-10. Greedy Algorithms
+10. **[Greedy Algorithms](pattern10_greedy_algorithms/README.md)**
 11. Fast and Slow Pointers
 12. In-Place Manipulation of a Linked List
 13. Matrices
