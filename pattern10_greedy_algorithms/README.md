@@ -1,6 +1,6 @@
 # Greedy Algorithms
 
-The Greedy Algorithms pattern is a problem-solving technique where the goal is to find the locally optimal choice at each stage with the hope of finding a global optimum. [Greedy algorithms](examples/README.md) make decisions based on the information available at the current moment, without considering the long-term consequences of those decisions.
+The Greedy Algorithms pattern is a problem-solving technique where the goal is to find the locally optimal choice at each stage with the hope of finding a global optimum. [Greedy algorithms](examples/) make decisions based on the information available at the current moment, without considering the long-term consequences of those decisions.
 
 [Practice Questions](QUESTIONS.md)
 
