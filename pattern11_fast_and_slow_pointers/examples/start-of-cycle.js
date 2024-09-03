@@ -1,3 +1,10 @@
+class ListNode {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
 function detectCycle(head) {
     if (!head || !head.next) return null;
     
