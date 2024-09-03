@@ -21,7 +21,7 @@ The initial prompt cut the list down to 9 popular patterns.
 ## Other Patterns:
 
 10. **[Greedy Algorithms](pattern10_greedy_algorithms/README.md)**
-11. Fast and Slow Pointers
+11. **[Fast and Slow Pointers](pattern11_fast_and_slow_pointers/README.md)**
 12. In-Place Manipulation of a Linked List
 13. Matrices
 14. Two Heaps
