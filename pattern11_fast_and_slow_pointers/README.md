@@ -30,9 +30,7 @@ Differences:
 
 These examples demonstrate the versatility of the Fast and Slow Pointers pattern. While they all use the core concept of two pointers moving at different speeds, each applies this principle to solve a different problem. 
 
-## Complexity
-
-Time Complexity:
+## Time Complexity
 
 In general, the time complexity of algorithms using the Fast and Slow Pointers pattern is O(n), where n is the number of elements in the data structure (usually a linked list or an array).
 This linear time complexity occurs because:
@@ -44,7 +42,7 @@ This linear time complexity occurs because:
 
 It's worth noting that in some specific applications, like finding the middle element of a linked list, the algorithm might terminate after examining only half of the elements, but this is still considered O(n) in big O notation.
 
-Space Complexity:
+**Space Complexity**:
 
 One of the main advantages of the Fast and Slow Pointers pattern is its space efficiency. The space complexity is typically O(1), or constant space.
 
@@ -56,7 +54,7 @@ This constant space complexity is achieved because:
 
 This O(1) space complexity makes the pattern particularly useful for problems where memory usage is a concern, or when working with very large data sets.
 
-Exceptions and Variations:
+**Exceptions and Variations**:
 
 While O(n) time and O(1) space are typical, there can be variations:
 - In some cycle detection problems where we need to find the cycle's length or starting point, we might need an additional traversal, but this doesn't change the overall O(n) time complexity.
