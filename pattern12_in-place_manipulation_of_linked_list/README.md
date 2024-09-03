@@ -2,15 +2,6 @@
 
 The "In-Place Manipulation of Linked List" pattern involves modifying a linked list by rearranging its nodes without using extra space. This pattern is characterized by directly manipulating the pointers of the linked list nodes to achieve the desired restructuring or modification. It's particularly useful when you need to modify a linked list's structure or content while maintaining O(1) space complexity.
 
-Key characteristics include:
-
-1. Directly modifying node pointers
-2. Avoiding the use of additional data structures
-3. Typically using multiple pointers to keep track of different parts of the list
-4. Often involving reversing parts of or the entire list
-
-This pattern is useful because it allows for efficient manipulation of linked lists without the need for extra memory, which is crucial in memory-constrained environments or when dealing with very large lists.
-
 [Practice Questions](QUESTIONS.md)
 
 ## **Examples**:
@@ -34,8 +25,6 @@ Differences:
 2. The cycle detection uses fast and slow pointers moving at different speeds.
 3. The reordering example combines multiple operations: finding the middle, reversing a part, and merging.
 4. The remove Nth from end example uses a dummy node and maintains a fixed gap between two pointers.
-
-These examples demonstrate different aspects of in-place linked list manipulation, from simple pointer reversal to more complex operations involving multiple steps. They all achieve their goals without using additional data structures, showcasing the power and flexibility of this pattern in solving a variety of linked list problems.
 
 ## Time Complexity
 
