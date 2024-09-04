@@ -54,7 +54,7 @@ When approaching matrix problems, it's crucial to consider the specific requirem
 
 Understanding these complexity patterns is crucial for optimizing matrix algorithms and choosing the most efficient approach for a given problem. It's also important to consider the specific requirements of each problem, as sometimes a slightly less efficient algorithm might be preferred if it leads to simpler, more maintainable code.
 
-## Ways to Indentify
+## Ways to Identify
 
 Real-World Applications:
 
