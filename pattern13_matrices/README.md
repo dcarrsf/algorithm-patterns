@@ -32,18 +32,18 @@ When approaching matrix problems, it's crucial to consider the specific requirem
 
 ## Time Complexity
 
-1. **Traversal**: O(m * n), where m is the number of rows and n is the number of columns. This is common for algorithms that need to visit every cell once.
-2. **DFS/BFS**: O(m * n) in the worst case. For algorithms like island counting or path finding.
-3. **Matrix multiplication**: O(n^3) for naive implementation, where n is the dimension of square matrices. More efficient algorithms like Strassen's exist but are complex.
-4. **In-place rotation**: O(n^2) for an n x n matrix.
-5. **Searching**: O(log(m * n)) for sorted matrices using divide-and-conquer methods.
+1. Traversal: O(m * n), where m is the number of rows and n is the number of columns. This is common for algorithms that need to visit every cell once.
+2. DFS/BFS: O(m * n) in the worst case. For algorithms like island counting or path finding.
+3. Matrix multiplication: O(n^3) for naive implementation, where n is the dimension of square matrices. More efficient algorithms like Strassen's exist but are complex.
+4. In-place rotation: O(n^2) for an n x n matrix.
+5. Searching: O(log(m * n)) for sorted matrices using divide-and-conquer methods.
 
 **Space Complexity**:
 
-1. **In-place algorithms**: O(1) extra space. Many matrix problems can be solved by modifying the input matrix.
-2. **DFS/BFS**: O(min(m, n)) in the worst case for the recursion stack or queue. 
-3. **Creating a new matrix**: O(m * n) additional space. When a new matrix is required to store results.
-4. **Auxiliary data structures**: Often O(m + n) or O(min(m, n)). For algorithms that store information about rows or columns.
+1. In-place algorithms: O(1) extra space. Many matrix problems can be solved by modifying the input matrix.
+2. DFS/BFS: O(min(m, n)) in the worst case for the recursion stack or queue. 
+3. Creating a new matrix: O(m * n) additional space. When a new matrix is required to store results.
+4. Auxiliary data structures: Often O(m + n) or O(min(m, n)). For algorithms that store information about rows or columns.
 
 **Key Considerations**:
 
