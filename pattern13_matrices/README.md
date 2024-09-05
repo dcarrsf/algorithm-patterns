@@ -1,6 +1,6 @@
 # Matrices
 
-The Matrices pattern involves working with 2D arrays or grids of data. It's characterized by operations that manipulate or traverse these structures, often requiring careful handling of row and column indices. This pattern is [useful for solving problems that involve spatial relationships](examples/), game boards, image processing, or any data that can be represented in a grid format.
+The Matrices pattern involves working with 2D arrays or grids of data. It's characterized by operations that manipulate or traverse these structures, often requiring careful handling of row and column indices. This pattern is useful for solving [problems that involve spatial relationships](examples/), game boards, image processing, or any data that can be represented in a grid format.
 
 Matrices are particularly important because they efficiently represent and process 2D data structures, allowing for complex operations and algorithms to be applied to real-world scenarios.
 
