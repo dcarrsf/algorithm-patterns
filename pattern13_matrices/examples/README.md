@@ -1,12 +1,13 @@
 # Matrices Examples
 
-Overview:
+### Overview:
 
-1. **Island Count**: Problems involving connected components in a grid, such as counting regions or flood fill algorithms.
-2. **Rotate Image**: Questions about geometric transformations of matrices, including reflections and transpositions.
-3. **Word Search**: Path-finding problems in a grid, especially those requiring backtracking.
-4. **Game of Life**: Cellular automaton problems or any scenario where the state of each cell depends on its neighbors.
+1. **[Island Count](#1-island-count)**: Problems involving connected components in a grid, such as counting regions or flood fill algorithms.
+2. **[Rotate Image](#2-rotate-image)**: Questions about geometric transformations of matrices, including reflections and transpositions.
+3. **[Word Search](#3-word-search)**: Path-finding problems in a grid, especially those requiring backtracking.
+4. **[Game of Life](#4-game-of-life)**: Cellular automaton problems or any scenario where the state of each cell depends on its neighbors.
 
+The following presents each of the example questions in an interview format.
 
 ## 1. **Island Count**
 
@@ -31,7 +32,6 @@ Additional Details:
 - You can modify the input grid if needed.
 - Consider edge cases like an empty grid or a grid with all water/land.
 
--------
 ## 2. **Rotate Image**
 
 **Question**: You are given an n x n 2D matrix representing an image. Rotate the image by 90 degrees (clockwise) in-place. You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
@@ -62,7 +62,6 @@ Additional Details:
 - Matrix elements are integers.
 - You must do this in-place without allocating extra space.
 
--------
 ## 3. **Word Search**
 
 **Question**: Given a 2D board and a word, find if the word exists in the grid. The word can be constructed from letters of sequentially adjacent cells, where "adjacent" cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
@@ -89,7 +88,6 @@ Additional Details:
 - You may assume the word length won't exceed the maximum of m and n.
 
 
--------
 ## 4. **Game of Life**
 
 **Question**:  Given a board with m by n cells, each cell has an initial state live (1) or dead (0). Each cell interacts with its eight neighbors (horizontal, vertical, diagonal) using the following four rules:
