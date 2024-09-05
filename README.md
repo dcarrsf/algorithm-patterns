@@ -24,7 +24,7 @@ The initial prompt cut the list down to 9 popular patterns.
 11. **[Fast and Slow Pointers](pattern11_fast_and_slow_pointers/README.md)**
 12. **[In-Place Manipulation of a Linked List](pattern12_in-place_manipulation_of_linked_list/README.md)**
 13. **[Matrices](pattern13_matrices/README.md)**
-14. Two Heaps
+14. **[Two Heaps](pattern14_two_heaps/README.md)**
 15. Merge Intervals
 16. K-Way Merge
 17. Backtracking
