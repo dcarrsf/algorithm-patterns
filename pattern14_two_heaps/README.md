@@ -6,7 +6,7 @@ The key characteristic of this pattern is the balancing act between the two heap
 
 This pattern is useful because it provides an efficient way to handle problems that would otherwise require sorting the entire dataset (which could be prohibitively expensive, especially for large datasets or streaming data).
 
-[Practice Questions](QUESTIONS.md)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/) | [Concepts](examples/CLARIFICATION.md)
 
 ## **Examples**:
 1. **[Find the Median from a Data Stream](examples/find-median.js)**: Efficiently maintain and retrieve median from continuous data input.
@@ -71,4 +71,4 @@ Characteristics:
 When you encounter these characteristics in a problem, consider whether the Two Heaps pattern might be applicable. Remember, the key is recognizing that you need to efficiently keep track of the middle of a dynamic dataset.
 
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples/) | [Concepts](examples/CLARIFICATION.md)
