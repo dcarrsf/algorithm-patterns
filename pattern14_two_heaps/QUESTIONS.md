@@ -7,8 +7,6 @@ Types of questions that prompt using each example:
 3. "Find the Kth Largest Element in a Stream" is used when you need to maintain the kth largest element in a growing dataset.
 4. "Find the Median of Two Sorted Arrays" is used when you need to efficiently find the median of two separate sorted arrays without merging them.
 
-Questions in Interview Format:
-
 ## 1. **Find the Median from a Data Stream**
 
 **Question**: "Design a data structure that supports adding integer numbers from a data stream and calculating the median of all elements in O(1) time."
@@ -103,15 +101,3 @@ Expected Output:
 Additional Information:
 
 The median is 2.0 as the merged array would be [1,2,3] and 2 is the middle element.
-
------------
-
-For each of these questions, the candidate would be expected to:
-
-1. Ask clarifying questions if needed
-2. Discuss their approach to solving the problem
-3. Explain the time and space complexity of their solution
-4. Write code to implement their solution
-5. Walk through a few test cases to verify their implementation
-
-These questions cover various aspects of the Two Heaps pattern and test the candidate's ability to apply this pattern to solve different types of problems efficiently.
