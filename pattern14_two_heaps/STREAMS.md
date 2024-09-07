@@ -1,4 +1,4 @@
-# Medians & Streams
+# Streams & Medians
 
 When we refer to "streams" in these contexts, we're typically talking about continuous flows of data that arrive over time. These can be broadly categorized into:
 
