@@ -2,10 +2,12 @@
 
 Types of questions that prompt using each example:
 
-1. "Find the Median from a Data Stream" is used when you need to find the median of a constantly growing dataset.
-2. "Sliding Window Median" is used when you need to find medians of subarrays of a fixed size in a larger array.
-3. "Find the Kth Largest Element in a Stream" is used when you need to maintain the kth largest element in a growing dataset.
-4. "Find the Median of Two Sorted Arrays" is used when you need to efficiently find the median of two separate sorted arrays without merging them.
+1. **Find the Median from a Data Stream**: Used when you need to find the median of a constantly growing dataset.
+2. **Sliding Window Median**: Used when you need to find medians of subarrays of a fixed size in a larger array.
+3. **Find the Kth Largest Element in a Stream**: Used when you need to maintain the kth largest element in a growing dataset.
+4. **Find the Median of Two Sorted Arrays**: Used when you need to efficiently find the median of two separate sorted arrays without merging them.
+
+Question Details:
 
 ## 1. **Find the Median from a Data Stream**
 
