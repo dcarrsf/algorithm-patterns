@@ -31,16 +31,16 @@ Each of these examples demonstrates a different aspect of interval manipulation,
 
 ## Time Complexity
 
-1. **Sorting: O(n log n)**: Most Merge Intervals problems start by sorting the intervals, which typically takes O(n log n) time, where n is the number of intervals.
-2. **Processing intervals: O(n)**: After sorting, the algorithm usually involves a single pass through the intervals, which takes O(n) time.
-3. **Overall: O(n log n)**: The sorting step dominates the time complexity, making the overall time complexity O(n log n) in most cases.
+1. Sorting: O(n log n): Most Merge Intervals problems start by sorting the intervals, which typically takes O(n log n) time, where n is the number of intervals.
+2. Processing intervals: O(n): After sorting, the algorithm usually involves a single pass through the intervals, which takes O(n) time.
+3. Overall: O(n log n): The sorting step dominates the time complexity, making the overall time complexity O(n log n) in most cases.
 
 Space Complexity:
 
-1. **Input storage: O(n)**: The space needed to store the input intervals.
-2. **Output storage: O(n)**: In the worst case, such as when no intervals overlap, the output may contain all original intervals.
-3. **Sorting: O(log n) to O(n)**: The space complexity of sorting depends on the implementation. Many modern sorting algorithms use O(log n) additional space, but some may use up to O(n).
-4. **Overall: O(n)**: The space complexity is generally O(n), dominated by the input and output storage.
+1. Input storage: O(n): The space needed to store the input intervals.
+2. Output storage: O(n): In the worst case, such as when no intervals overlap, the output may contain all original intervals.
+3. Sorting: O(log n) to O(n): The space complexity of sorting depends on the implementation. Many modern sorting algorithms use O(log n) additional space, but some may use up to O(n).
+4. Overall: O(n): The space complexity is generally O(n), dominated by the input and output storage.
 
 Key Points:
 
