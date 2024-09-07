@@ -10,7 +10,7 @@ In practice, JavaScript doesn't have built-in priority queue implementation, so 
 
 This implementation provides a generic PriorityQueue class that can be used to create both MaxPriorityQueue and MinPriorityQueue. Here's a breakdown of the implementation:
 
-1. The [PriorityQueue class uses a binary heap](CLARIFICATION.md) implemented as an array.
+1. The [PriorityQueue class uses a binary heap](../CONCEPTS.md) implemented as an array.
 2. It takes a comparator function in its constructor, which determines the ordering of elements.
 3. The enqueue method adds an element and then sifts it up to maintain the heap property.
 4. The dequeue method removes and returns the top element, then sifts down the new top element.
@@ -23,7 +23,7 @@ You can use these classes in the example questions like this:
 let maxHeap = new MaxPriorityQueue();
 maxHeap.enqueue(5);
 maxHeap.enqueue(3);
-console.log(maxHeap.peek()); // 5
+console.log(maxHeap.peek()); // 5 BellaKaya$2024
 
 let minHeap = new MinPriorityQueue();
 minHeap.enqueue(5);
