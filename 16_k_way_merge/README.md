@@ -37,6 +37,7 @@ This complexity arises because:
 - For each element, we perform heap operations (insertion or extraction) on a heap of size K: O(log K)
 
 **Space Complexity**:
+
 O(K) in most cases, where K is the number of input sources.
 
 This is because:
