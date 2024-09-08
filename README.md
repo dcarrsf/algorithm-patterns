@@ -28,7 +28,7 @@ The initial prompt cut the list down to 9 popular patterns.
 15. **[Merge Intervals](15_merge_intervals/README.md)**
 16. **[K-Way Merge](16_k_way_merge/README.md)**
 17. **[Backtracking](17_backtracking/README.md)**
-18. Subsets
+18. **[Subsets](18_subsets/README.md)**
 19. Graphs
 20. **[Trie](20_trie/README.md)**
 21. Custom Data Structures
