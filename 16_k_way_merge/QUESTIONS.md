@@ -3,11 +3,8 @@
 Overview:
 
 1. **[Merge K Sorted Arrays](#merge-k-sorted-arrays)**: "Given K sorted arrays, merge them into one sorted array."
-
 2. **[Merge K Sorted Linked Lists](#merge-k-sorted-linked-lists)**: "You are given an array of K linked-lists lists, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it."
-
 3. **[Merge K Sorted Streams](#merge-k-sorted-streams)**: "Design a system to merge K sorted input streams into one sorted output stream. The input streams are potentially infinite."
-
 4. **[K-Way External Sort](#k-way-external-sort)**: "Implement an external sorting algorithm to sort a large file that doesn't fit into memory. You can load K chunks into memory at a time."
 
 Details:
