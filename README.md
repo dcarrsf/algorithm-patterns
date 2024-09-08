@@ -26,7 +26,7 @@ The initial prompt cut the list down to 9 popular patterns.
 13. **[Matrices](13_matrices/README.md)**
 14. **[Two Heaps](14_two_heaps/README.md)**
 15. **[Merge Intervals](15_merge_intervals/README.md)**
-16. K-Way Merge
+16. **[K-Way Merge](16_k_way_merge/README.md)**
 17. Backtracking
 18. Subsets
 19. Graphs
