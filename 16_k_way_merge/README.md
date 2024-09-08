@@ -2,7 +2,7 @@
 
 The K-Way Merge pattern is an algorithmic technique used to efficiently merge K sorted arrays or lists into a single sorted array. It's particularly useful when dealing with large datasets that are already partially sorted. The pattern leverages the fact that the input lists are pre-sorted to achieve better time complexity compared to sorting all elements from scratch.
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples)
 
 ## **Examples**:
 1. **[Merge K Sorted Arrays](examples/merge_k_sorted_arrays.js)**: Efficiently combines multiple sorted arrays into one sorted array.
@@ -79,4 +79,4 @@ Ways to Identify:
 When you encounter a problem with these characteristics, the K-Way Merge pattern could be an efficient solution. Remember to consider using a min-heap to keep track of the current smallest elements from each input list, as this is a key component of implementing this pattern efficiently.
 
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Examples](examples)
