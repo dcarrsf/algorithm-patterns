@@ -7,7 +7,7 @@ Backtracking is an algorithmic technique for solving problems recursively by try
 ## **Examples**:
 1. **[Generate All Permutations of a String](examples/permutations.js)**: Systematically arrange all possible orderings of given elements.
 2. **[N-Queens Problem](examples/n-queens.js)**: Place N queens on chessboard without threatening each other.
-3. **[Sudoku Solver](examples/sudoku.js)**: Fill 9x9 grid with digits following Sudoku rules.
+3. **[Sudoku Solver](examples/sudoku-solver.js)**: Fill 9x9 grid with digits following Sudoku rules.
 4. **[Generate All Subsets of a Set](examples/subsets.js)**: Create all possible combinations of elements from given set.
 
 ### **Key observations**:
@@ -52,9 +52,9 @@ The efficiency of backtracking algorithms heavily depends on how quickly invalid
 Real-World Applications:
 
 1. **Google Maps**: Uses backtracking in its route-finding algorithms to explore multiple paths and find optimal routes.
-2. **Chess engines (like those used by chess.com or lichess.org)**: Employ backtracking to analyze possible moves and their consequences.
-3. **Sudoku solvers**: Many online Sudoku games use backtracking to generate and solve puzzles.
-4. **Text editors (like Visual Studio Code)**: Use backtracking in their find-and-replace functionality, especially for regular expression matching.
+2. **Chess Engines (like those used by chess.com or lichess.org)**: Employ backtracking to analyze possible moves and their consequences.
+3. **Sudoku Solvers**: Many online Sudoku games use backtracking to generate and solve puzzles.
+4. **Text Editors (like Visual Studio Code)**: Use backtracking in their find-and-replace functionality, especially for regular expression matching.
 
 Keywords:
 
