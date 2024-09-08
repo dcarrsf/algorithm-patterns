@@ -2,8 +2,6 @@
 
 The K-Way Merge pattern is an algorithmic technique used to efficiently merge K sorted arrays or lists into a single sorted array. It's particularly useful when dealing with large datasets that are already partially sorted. The pattern leverages the fact that the input lists are pre-sorted to achieve better time complexity compared to sorting all elements from scratch.
 
-The K-Way Merge is useful because it can significantly reduce the time complexity of merging multiple sorted lists, especially when K is large. It's often more efficient than concatenating all lists and then sorting the result.
-
 [Practice Questions](QUESTIONS.md) | [Examples](examples/)
 
 ## **Examples**:
