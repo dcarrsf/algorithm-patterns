@@ -36,11 +36,11 @@ These examples demonstrate different aspects of graph problems, from simple trav
 
 Real-World Applications:
 
-1. **Social Networks (e.g., Facebook, LinkedIn)**: Friend relationships, connection suggestions
-2. **Navigation Systems (e.g., Google Maps, Waze)**: Finding shortest routes, traffic analysis
-3. **Recommendation Systems (e.g., Netflix, Amazon)**: Product or content suggestions based on user preferences
+1. **Social Networks** (Facebook, LinkedIn): Friend relationships, connection suggestions
+2. **Navigation Systems** (Google Maps, Waze): Finding shortest routes, traffic analysis
+3. **Recommendation Systems** (Netflix, Amazon): Product or content suggestions based on user preferences
 4. **Computer Networks**: Routing protocols, network topology analysis
-5. **Dependency Resolution (e.g., npm, pip)**: Managing software package dependencies
+5. **Dependency Resolution** (npm, pip): Managing software package dependencies
 
 Keywords:
 
