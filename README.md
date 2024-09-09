@@ -4,7 +4,7 @@ Algorithm studies project using AI assistance to define patterns, examples, and 
 
 The project continues the idea started by Ed Skwareki in his Medium article [How ChatGPT is Helping Me Recognize LeetCode Coding Patterns](https://medium.com/@edskwarecki/how-chatgpt-is-helping-me-recognize-leetcode-coding-patterns-32fca706d9ba). The list of 27 algorithm patterns identified in the article are used as guidelines for the study topics below. 
 
-## Popular Patterns:
+### Popular Patterns:
 
 The initial prompt cut the list down to 9 popular patterns.
 
@@ -18,7 +18,9 @@ The initial prompt cut the list down to 9 popular patterns.
 8. **[Dynamic Programming](08_dynamic_programming/README.md)**
 9. **[Sliding Window](09_sliding_window/README.md)**
 
-## Other Patterns:
+### Other Patterns:
+
+The remaining patterns are more complex.
 
 10. **[Greedy Algorithms](10_greedy_algorithms/README.md)**
 11. **[Fast and Slow Pointers](11_fast_and_slow_pointers/README.md)**

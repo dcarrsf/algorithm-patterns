@@ -5,7 +5,7 @@ The "Custom Data Structures" pattern involves creating specialized data structur
 [Practice Questions](QUESTIONS.md) | [Examples](examples/)
 
 ## **Examples**:
-1. **[LRU Cache](examples/lru_cache.js)**: Efficient key-value store with least recently used eviction policy.
+1. **[LRU Cache](examples/lru-cache.js)**: Efficient key-value store with least recently used eviction policy.
 2. **[Trie (Prefix Tree)](examples/trie.js)**: Tree-like structure for fast prefix-based string operations.
 3. **[MinStack](examples/minstack.js)**: Stack with constant-time access to minimum element.
 4. **[Union-Find (Disjoint Set)](examples/unified-find.js)**:  Efficiently tracks and merges disjoint sets of elements.
