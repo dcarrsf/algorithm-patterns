@@ -1,4 +1,4 @@
-# Custom Data Structures Examples
+# Examples: Custom Data Structures
 
 Overview:
 
