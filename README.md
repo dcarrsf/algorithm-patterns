@@ -31,7 +31,7 @@ The initial prompt cut the list down to 9 popular patterns.
 18. **[Subsets](18_subsets/README.md)**
 19. **[Graphs](19_graphs/README.md)**
 20. **[Trie](20_trie/README.md)**
-21. Custom Data Structures
+21. **[Custom Data Structures](21_custom_data_structures/README.md)**
 22. Topological Sort
 23. Union Find
 24. Island (Matrix Traversal)
