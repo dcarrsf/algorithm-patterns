@@ -30,7 +30,24 @@ These examples demonstrate different aspects of graph problems, from simple trav
 
 ## Time Complexity
 
+- For most graph algorithms: O(V + E), where V is the number of vertices and E is the number of edges.
+- For dense graphs: Often O(V^2), as E can approach V^2 in the worst case.
+- For weighted graph algorithms (like Dijkstra's): Can be O(V^2) or O((V + E) log V) with optimized data structures.
 
+**Space Complexity**:
+
+- Typically O(V) for storing the visited set and recursion stack/queue.
+- O(V + E) for storing the graph itself in an adjacency list.
+- Some algorithms may require additional data structures, potentially increasing space complexity.
+
+**Key Points**:
+
+1. BFS and DFS usually have O(V + E) time and O(V) space complexity.
+2. Dijkstra's algorithm can be O((V + E) log V) time with a binary heap.
+3. Cycle detection is generally O(V + E) time and O(V) space.
+4. The choice of graph representation (adjacency list vs. matrix) can impact complexities.
+
+These are general guidelines. Specific implementations or graph structures may lead to different complexities.
 
 ## Ways to Identify
 
