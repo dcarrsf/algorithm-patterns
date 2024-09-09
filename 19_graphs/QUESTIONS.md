@@ -121,7 +121,7 @@ Additional Input to test circular dependency:
 
 ```javascript
 const tasks = ["A", "B", "C", "D"];
-const dependencies = [["A", "B"], ["B", "C"], ["C", "D"]];
+const dependencies = [["A", "B"], ["B", "C"], ["C", "D"], ["D", "A"]];
 
 function canCompleteTasks(tasks, dependencies) {
     // Implement this function
