@@ -1,6 +1,6 @@
 # Examples: Custom Data Structures
 
-## Key Concepts:
+### Key Concepts:
 
 ### 1. **LRU Cache**:
 
@@ -27,27 +27,4 @@
 
 These custom data structures are designed to solve specific problems more efficiently than standard data structures, making them valuable in a variety of real-world applications and coding challenges.
 
-## More Examples:
-
-### 5. **Priority Queue**:
-
-- A Priority Queue is a specialized data structure that stores elements with associated priorities, allowing you to efficiently retrieve the element with the highest (or lowest) priority.
-- It's commonly used in various algorithms and applications that require processing elements in order of importance, such as in Dijkstra's algorithm for finding the shortest path, task scheduling, and event-driven simulations.
-
-### 6. **Segment Tree**:
-
-- A Segment Tree is a tree-based data structure that efficiently stores and queries information about segments or intervals in an array.
-- It's particularly useful for tasks that involve range queries, such as finding the minimum, maximum, or sum of elements in a given range of an array.
-- Segment Trees are commonly used in competitive programming, data processing, and real-time applications that require fast range-based computations.
-
-### 7. **Fenwick Tree (Binary Indexed Tree)**:
-
-- A Fenwick Tree, also known as a Binary Indexed Tree, is a data structure that efficiently supports range queries and updates over an array.
-- It's commonly used in problems that require frequent range updates and range queries, such as in counting inversions, range frequency queries, and prefix sums.
-- Fenwick Trees provide a trade-off between update and query times, allowing for efficient operations in both directions.
-
-### 8. **AVL Tree**:
-
-- An AVL Tree is a self-balancing binary search tree, where the heights of the left and right subtrees of any node differ by at most one.
-- AVL Trees maintain a balance factor for each node, ensuring that the tree remains balanced, which leads to efficient search, insertion, and deletion operations.
-- AVL Trees are commonly used in scenarios where maintaining a balanced binary search tree is essential, such as in databases, file systems, and other applications that require efficient sorting and searching.
+[More Examples (Extras)](extras/)
