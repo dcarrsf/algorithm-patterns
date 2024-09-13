@@ -6,7 +6,7 @@ Topological Sort is an algorithm for ordering the vertices of a directed acyclic
 
 ## **Examples**:
 1. **[Course Schedule Problem](examples/course-schedule.js)**: Given a list of courses and their prerequisites, determine if it's possible to take all courses.
-2. **[Alien Dictionary Problem](examples/.js)**: Given a sorted dictionary of an alien language, find the order of characters in the alphabet.
+2. **[Alien Dictionary Problem](examples/alien-dictionary.js)**: Given a sorted dictionary of an alien language, find the order of characters in the alphabet.
 3. **[Build Order Problem](examples/build-order.js)**: Given a list of projects and dependencies, find a valid build order.
 4. **[Task Schedluing Problem](examples/task-scheduling.js)**: Given a set of tasks and their dependencies, find the minimum time to complete all tasks if you have unlimited parallel processors.
 
