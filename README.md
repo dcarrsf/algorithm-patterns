@@ -32,7 +32,7 @@ The initial prompt cut the list down to 9 popular patterns.
 19. **[Graphs](19_graphs/README.md)**
 20. **[Trie](20_trie/README.md)**
 21. **[Custom Data Structures](21_custom_data_structures/README.md)**
-22. Topological Sort
+22. **[Topological Sort](22_topological_sort/README.md)**
 23. Union Find
 24. Island (Matrix Traversal)
 25. Monotonic Stacks
