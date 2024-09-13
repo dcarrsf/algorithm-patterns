@@ -1,4 +1,4 @@
-# Topological Sort
+# Examples: Topological Sort
 
 Characteristics:
 
