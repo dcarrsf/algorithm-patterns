@@ -6,11 +6,10 @@ Key characteristics:
 2. Uses tree-like structures to represent sets
 3. Employs optimization techniques like path compression and union by rank
 
-Union Find is useful because it offers near-constant time complexity for its operations, making it highly efficient for large datasets and dynamic connectivity problems.
 
 ## UnionFind Class
 
-The [UnionFind data structure](union-find.js), also known as a disjoint set data structure, typically includes the following main methods:
+The [UnionFind](union-find.js) data structure, also known as a disjoint set data structure, typically includes the following main methods:
 
 - [Constructor](#1-constructor)
 - [find](#2-find): Path compression ensures that future finds on the same element will be faster.
