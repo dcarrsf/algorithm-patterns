@@ -4,7 +4,8 @@
 2. **[Undirected Graphs](#2-undirected-graphs)**
 3. **[Directed Graphs (Digraphs)](#3-directed-graphs-digraph)**
 4. **[Graph Comparison](#4-graph-comparison)**
-5. **[Ackermann function](#5-ackermann-function)**
+5. **[Path Compression](#5-path-compression)**
+6. **[Ackermann function](#6-ackermann-function)**
 
 ## Disjoint Sets
 
@@ -113,6 +114,76 @@ Understanding these differences is crucial when working with graph algorithms, a
 6. Cycles:
     - Undirected: A cycle is a path of edges and vertices wherein a vertex is reachable from itself.
     - Directed: A cycle is a path of edges and vertices wherein a vertex is reachable from itself following the direction of the edges.
+
+## Path Compression
+
+Path compression is a key optimization technique used in the Union-Find data structure to improve its efficiency. Let's dive into what path compression is, how it works, and why it's beneficial.
+
+What is Path Compression?
+
+Path compression is a technique used during the 'find' operation in a Union-Find data structure. Its primary goal is to flatten the tree structure, reducing the path length for future operations.
+
+How Path Compression Works:
+
+1. Basic Idea: When we perform a 'find' operation to locate the root of an element, we traverse up the tree from that element to its root.
+2. Without Path Compression: We would simply traverse up the tree, potentially going through many intermediate nodes.
+3. With Path Compression: As we traverse up the tree, we update each node we visit to point directly to the root.
+
+Example:
+
+Before path compression:
+
+```javascript
+     A
+    /
+   B
+  /
+ C
+```
+
+After path compression (when finding the root of C):
+
+```javascript
+ A
+ | \
+ B  C
+```
+
+Implementation:
+
+Here's the 'find' method with path compression:
+
+```javascript
+find(x) {
+    if (this.parent[x] !== x) {
+        this.parent[x] = this.find(this.parent[x]);
+    }
+    return this.parent[x];
+}
+```
+
+This recursive implementation does two things:
+
+1. It finds the root of the set.
+2. As it unwinds the recursion, it updates each node to point directly to the root.
+
+Benefits of Path Compression:
+
+1. Efficiency: It significantly reduces the time complexity of future operations on the same elements.
+2. Flattening: It flattens the tree structure, bringing most nodes to a height of 1 or 2.
+3. Amortized Performance: Combined with union by rank/size, it achieves near-constant time complexity for operations.
+4. Scalability: It allows the Union-Find structure to handle larger datasets more efficiently.
+
+Theoretical Impact:
+
+Without path compression, the worst-case time complexity for a sequence of m operations on n elements could be O(m log n). With path compression (and union by rank), this improves to O(m α(n)), where α(n) is the inverse Ackermann function, which grows extremely slowly and is effectively constant for all practical values of n.
+
+Trade-offs:
+
+- The main trade-off is a slight increase in the complexity of the 'find' operation itself.
+- However, this upfront cost pays off significantly in the long run, especially for large datasets or long sequences of operations.
+
+In practice, path compression is almost always worth implementing due to its significant performance benefits, making Union-Find operations nearly constant time in most practical scenarios.
 
 ## Ackermann function
 
