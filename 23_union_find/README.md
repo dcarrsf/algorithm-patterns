@@ -21,24 +21,10 @@ Consistencies:
 
 Differences:
 
-1. Purpose:
-    - Example 1 counts connected components.
-    - Example 2 detects cycles.
-    - Example 3 finds social circles.
-    - Example 4 identifies a redundant connection.
-
-2. Input format:
-    - Examples 1, 2, and 4 take edge lists as input.
-    - Example 3 takes an adjacency matrix.
-
-3. Output:
-    - Examples 1 and 3 return a count.
-    - Example 2 returns a boolean.
-    - Example 4 returns an edge.
-
-4. Graph representation:
-    - Examples 1, 2, and 4 work with explicit edge representations.
-    - Example 3 works with an implicit graph represented as a matrix.
+1. Examples 1, 2, and 4 take edge lists as input.
+2. Example 3 takes an adjacency matrix.
+3. Examples 1, 2, and 4 work with explicit edge representations.
+4. Example 3 works with an implicit graph represented as a matrix.
 
 These examples demonstrate the versatility of the Union Find pattern in solving various graph-related problems. They all leverage the efficient find and union operations to determine connectivity, but each applies this concept to a different problem domain. The key to identifying when to use Union Find is recognizing problems that involve grouping elements or querying connectivity in an efficient manner.
 
