@@ -118,22 +118,26 @@ Understanding these differences is crucial when working with graph algorithms, a
 
 The Ackermann function is a recursive mathematical function that grows extremely rapidly, even for small inputs. It's defined for two non-negative integers and has the following properties:
 
-1. **Definition**: For non-negative integers m and n, the Ackermann function A(m,n) is defined recursively as:
-A(m,n) =
+1. Definition: 
+    
+    For non-negative integers m and n, the Ackermann function A(m,n) is defined recursively as: A(m,n) =
     - n + 1                  if m = 0
     - A(m-1, 1)              if m > 0 and n = 0
     - A(m-1, A(m, n-1))      if m > 0 and n > 0
 
-2. **Growth rate**: It grows faster than exponential functions, faster than tetration (iterated exponentiation), and even faster than most other commonly encountered functions.
-Significance:
+2. Growth rate: 
+    
+    It grows faster than exponential functions, faster than tetration (iterated exponentiation), and even faster than most other commonly encountered functions.
+
+3. Significance:
     - It's one of the simplest examples of a total computable function that is not primitive recursive.
     - It's used to prove certain theoretical results about computation and complexity.
 
-3. **Inverse Ackermann function**:
+4. Inverse Ackermann function:
     - The inverse of the Ackermann function, denoted as α(n), grows extremely slowly.
     - This inverse function is used in the analysis of some algorithms, including certain implementations of the Union-Find data structure.
 
-4. **Practical implications**:
+5. Practical implications:
     - For small inputs, the function produces very large outputs.
     - It's often used as a benchmark for recursive algorithms and in theoretical computer science.
 
