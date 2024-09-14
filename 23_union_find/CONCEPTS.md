@@ -1,11 +1,11 @@
 # Concepts
 
-1. **[Disjoint Sets](#1-disjoint-sets)**
-2. **[Undirected Graphs](#2-undirected-graphs)**
-3. **[Directed Graphs (Digraphs)](#3-directed-graphs-digraph)**
-4. **[Graph Comparison](#4-graph-comparison)**
-5. **[Path Compression](#5-path-compression)**
-6. **[Ackermann function](#6-ackermann-function)**
+1. **[Disjoint Sets](#disjoint-sets)**
+2. **[Undirected Graphs](#undirected-graphs)**
+3. **[Directed Graphs (Digraphs)](#directed-graphs-digraph)**
+4. **[Graph Comparison](#graph-comparison)**
+5. **[Path Compression](#path-compression)**
+6. **[Ackermann function](#ackermann-function)**
 
 ## Disjoint Sets
 
