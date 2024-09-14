@@ -21,22 +21,22 @@ Consistencies:
 
 Differences:
 
-1. **Purpose**:
+1. Purpose:
     - Example 1 counts connected components.
     - Example 2 detects cycles.
     - Example 3 finds social circles.
     - Example 4 identifies a redundant connection.
 
-2. **Input format**:
+2. Input format:
     - Examples 1, 2, and 4 take edge lists as input.
     - Example 3 takes an adjacency matrix.
 
-3. **Output**:
+3. Output:
     - Examples 1 and 3 return a count.
     - Example 2 returns a boolean.
     - Example 4 returns an edge.
 
-4. **Graph representation**:
+4. Graph representation:
     - Examples 1, 2, and 4 work with explicit edge representations.
     - Example 3 works with an implicit graph represented as a matrix.
 
