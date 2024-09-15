@@ -2,7 +2,7 @@
 
 The Island pattern, also known as Matrix Traversal, is a problem-solving approach used for navigating and processing 2D grids or matrices. It's particularly useful for problems involving connected components in a grid, where you need to explore and manipulate groups of adjacent cells. This pattern typically employs depth-first search (DFS) or breadth-first search (BFS) algorithms to traverse the grid and perform operations on connected regions.
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Concepts](CONCEPTS.md) | [Examples](examples/)
 
 ## **Examples**:
 1. **[Number of Islands Problem](examples/.js)**: Count distinct connected regions in a 2D grid.
@@ -74,4 +74,4 @@ Characteristics:
 When you encounter a problem with these characteristics, consider applying the Island pattern using DFS or BFS to traverse and process the grid efficiently.
 
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Concepts](CONCEPTS.md) | [Examples](examples/)
