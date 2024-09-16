@@ -35,6 +35,6 @@ The initial prompt cut the list down to 9 popular patterns.
 22. **[Topological Sort](22_topological_sort/README.md)**
 23. **[Union Find](23_union_find/README.md)**
 24. **[Island (Matrix Traversal)](24_islands_matrix_traversal/README.md)**
-25. Monotonic Stacks
+25. **[Monotonic Stacks)](25_monotonic_stacks/README.md)**
 26. Cyclic Sort
 27. Bitwise XOR
