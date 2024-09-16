@@ -30,7 +30,19 @@ These examples demonstrate how the Cyclic Sort pattern can be adapted to solve v
 
 ## Time Complexity
 
+The time complexity is linear because the algorithm typically involves two passes through the array:
 
+1. The sorting phase, which uses a while loop to place each element in its correct position. Although this involves swaps, each element is moved at most once to its correct position.
+2. The final pass to find the result (e.g., missing or duplicate number), which is a simple for loop through the array.
+
+**Space Complexity**
+
+The space complexity is constant because the algorithm sorts the array in-place:
+
+1. No additional data structures proportional to the input size are used.
+2. Only a few variables are needed for indexing and temporary storage during swaps.
+
+This combination of linear time complexity and constant space complexity makes the Cyclic Sort pattern highly efficient for its specific use cases, particularly when dealing with arrays containing numbers in a given range related to the array's length. It's especially valuable in interview scenarios where optimal space usage is often a key consideration.
 
 ## Ways to Identify
 
