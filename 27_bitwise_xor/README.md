@@ -34,7 +34,7 @@ Most solutions using the Bitwise XOR pattern have a time complexity of O(n), whe
 
 In some cases, like the number swapping example, the time complexity can be O(1) when dealing with a fixed number of operations regardless of input size.
 
-**Space Complexity**
+### Space Complexity
 
 One of the most significant advantages of the Bitwise XOR pattern is its space efficiency. Solutions using this pattern typically have a space complexity of O(1), meaning they use only a constant amount of extra space regardless of the input size.
 
