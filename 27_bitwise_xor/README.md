@@ -2,7 +2,7 @@
 
 The Bitwise XOR pattern utilizes the XOR (exclusive or) operation to solve various problems efficiently. XOR has unique properties that make it useful for certain types of problems, particularly those involving finding unique elements or manipulating binary representations.
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Concepts](CONCEPTS.md) | [Examples](examples/)
 
 ## **Examples**:
 1. **[Single Number Problem](examples/single-number.js)**: Questions about finding a unique element in an array where all other elements appear an even number of times.
@@ -74,4 +74,4 @@ Characteristics:
 7. The question asks for a solution with linear time complexity and constant space complexity.
 
 
-[Practice Questions](QUESTIONS.md) | [Examples](examples/)
+[Practice Questions](QUESTIONS.md) | [Concepts](CONCEPTS.md) | [Examples](examples/)
